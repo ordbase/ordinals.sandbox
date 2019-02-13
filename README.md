@@ -2,7 +2,7 @@
 
 The (Secure) Ruby Quiz is a fortnightly contract programming challenge for Ruby (crypto) programmers. A new Ruby Quiz is sent to the [Ruby Talk mailing list](https://rubytalk.org/) once every two weeks. Join us.
 
-- [Code Challenge #1 - Creating a 3x3 Tic-Tac-Toe Player vs Player Game Contract](001)
+- [Code Challenge #1 - Create a 3x3 Tic-Tac-Toe Player vs Player Game Contract](001)
 
 
 ### New to (Secure) Ruby Programming?
