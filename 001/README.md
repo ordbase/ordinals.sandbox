@@ -1,5 +1,5 @@
 
-# (Secure) Ruby Quiz - Code Challenge #1 - Creating a 3x3 Tic-Tac-Toe Player vs Player Game Contract
+# (Secure) Ruby Quiz - Code Challenge #1 - Create a 3x3 Tic-Tac-Toe Player vs Player Game Contract
 
 Let's use the "[Creating a Tic-Tac-Toe Smart Contract](https://developers.eos.io/eosio-cpp/v1.3.1/docs/tic-tac-toe-tutorial)" tutorial
 and sample contract from the EOS.IO blockchain.
