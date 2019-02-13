@@ -294,7 +294,7 @@ EOSIO_ABI( tic_tac_toe, (create)(restart)(close)(move))
 
 Can you do better?
 
-Post your code snippets on the "official" Ruby Quiz Channel,
+Post your code snippets (or questions or comments) on the "official" Ruby Quiz Channel,
 that is, the [ruby-talk mailing list](https://rubytalk.org).
 
 Happy hacking and (crypto) blockchain contract scripting with sruby.
