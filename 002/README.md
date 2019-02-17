@@ -11,8 +11,7 @@
 > the underlying foundations of bond trading in late capitalism." 
 > 
 > -- Matt Levine
->
->
+
 > After you invest, vote on the color of my Tesla. 
 >
 > -- Josh Cincinnati, PonzICO Founder
