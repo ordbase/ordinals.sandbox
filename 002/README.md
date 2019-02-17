@@ -156,3 +156,70 @@ Post your code snippets (or questions or comments) on the "official" Ruby Quiz C
 that is, the [ruby-talk mailing list](https://rubytalk.org).
 
 Happy hacking and (crypto) blockchain contract scripting with sruby.
+
+
+
+## Bonus Level - Vote On My Tesla Color
+
+Up for a bonus level?  Turn the "Vote On My Tesla Color" contract into sruby too :-).
+
+``` solidity
+contract VoteOnMyTeslaColor {
+    address public owner;
+    enum Color { SolidBlack, MidnightSilverMetallic, DeepBlueMetallic, SilverMetallic, RedMultiCoat }
+    mapping (uint8 => uint32) public votes;
+    mapping (address => bool) public voted;
+
+    event Votes(Color color, uint num);
+    event Winner(Color color);
+
+    // hardcode production PonzICO address
+    PonzICO ponzico = PonzICO(0x1ce7986760ADe2BF0F322f5EF39Ce0DE3bd0C82B);
+
+    // constructor for initializing VoteOnMyTeslaColor
+    // the owner is the genius who made the revolutionary smart contract PonzICO
+    // obviously blue starts with 10 votes because it is objectively the BEST color
+    constructor() public {
+        owner = msg.sender;
+        // YOURE MY BOY BLUE
+        votes[uint8(2)] = 10;
+    }
+
+    // SUPER ACCREDITED INVESTORS ONLY, YOU CAN ONLY VOTE ONCE
+    function vote(uint8 color)
+    {
+        require( ponzico.invested(msg.sender) >= 0.1 ether && !voted[msg.sender] );
+        require( color < uint8(5) );
+
+        // 0.1 ETH invested in PonzICO per vote, truncated
+        uint32 num = uint32(ponzico.invested(msg.sender) / (0.1 ether));
+        votes[color] += num;
+        voted[msg.sender] = true;
+        emit Votes(Color(color), num);
+    }
+    
+    // pay to vote again! I don't care!
+    // ...but it'll cost you 1 ether for me to look the other way, wink wink
+    function itsLikeChicago() payable {
+        require( voted[msg.sender] && msg.value >= 1 ether );
+        voted[msg.sender] = false;
+    }
+
+    function winnovate()
+    {
+        require( msg.sender == owner );
+
+        Color winner = Color.SolidBlack;
+        for (uint8 choice = 1; choice < 5; choice++) {
+            if (votes[choice] > votes[choice-1]) {
+                winner = Color(choice);
+            }
+        }
+        emit Winner(winner);
+        // keeping dat blockchain bloat on check
+        selfdestruct(owner);
+    }
+}
+```
+
+(Source: [`etherscan.io/address/0x75f97d98eb49989f9af40c49a7a1eb32767214f5/#code`](https://etherscan.io/address/0x75f97d98eb49989f9af40c49a7a1eb32767214f5/#code))
