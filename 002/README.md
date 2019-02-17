@@ -11,14 +11,19 @@
 > the underlying foundations of bond trading in late capitalism." 
 > 
 > -- Matt Levine
+>
+>
+> After you invest, vote on the color of my Tesla. 
+>
+> -- Josh Cincinnati, PonzICO Founder
 
-Let's use the [live](https://etherscan.io/address/0x1ce7986760ade2bf0f322f5ef39ce0de3bd0c82b/) 
+Let's use the live
 and "real world" blockchain performance art
 PonzICO investment contract running on the Ethereum world computer.
 
-Read the [PonzICO White Paper](https://ponzico.win) for how the investment scheme works
-and what your money will get used for (hint: thanks for the free Tesla and 
-maybe a two bedroom condo in San Francisco) :-).
+Read the [PonzICO White Paper](https://ponzico.win) for how the investment scheme and dividend payouts work
+and what your money will get used for (hint: thanks for the free Tesla - don't forget to vote on the color :-) and 
+maybe a two bedroom condo in San Francisco).
 
 > PonzICO is the first ICO to respect your intelligence by calling a spade a spade.
 > Here's how it differs from your everyday ICO:
