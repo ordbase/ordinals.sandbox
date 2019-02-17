@@ -22,7 +22,7 @@ and "real world" blockchain performance art
 PonzICO investment contract running on the Ethereum world computer.
 
 Read the [PonzICO White Paper](https://ponzico.win) for how the investment scheme and dividend payouts work
-and what your money will get used for (hint: thanks for the free Tesla - don't forget to vote on the color :-) and 
+and what your money will get used for (hint: thanks for the free Tesla - don't forget to vote on the color :-) - and 
 maybe a two bedroom condo in San Francisco).
 
 > PonzICO is the first ICO to respect your intelligence by calling a spade a spade.
@@ -38,14 +38,14 @@ maybe a two bedroom condo in San Francisco).
 >   a solid couple of days re-learning LaTeX and Solidity.
 >
 >
-> That's it. With every new transaction into the PonzICO invest method, 
+> That's it. With every new transaction into the PonzICO `invest` method, 
 > PonzICO immediately balances that ETH to prior participants based on their current
 > proportion of ownership (minus my extremely minor, entirely fair 50% service fee).
 > Upon updating the balances, the new participant is added to the list to receive future
 > disbursements, and PonzICO dilutes everyone else’s stake accordingly. When they
-> are ready to receive their balance, they simply use the withdraw method. 
+> are ready to receive their balance, they simply use the `withdraw` method. 
 > Preexisting holders can always put more ETH into PonzICO to reduce their dilution - 
-> especially with the convenient reinvest method - at the cost of that transaction
+> especially with the convenient `reinvest` method - at the cost of that transaction
 > being disbursed to current stakeholders.
 >
 > -- Josh Cincinnati, PonzICO White Paper
@@ -53,7 +53,7 @@ maybe a two bedroom condo in San Francisco).
 
 The challenge: Code a contract for the PonzICO investment scheme using sruby :-).
 
-Here's the code in JavaScript-like Solidity in its full glory:
+Here's the code in the JavaScript-like Solidity "world standard" in its full glory:
 
 ``` solidity
 contract PonzICO {
@@ -67,11 +67,11 @@ contract PonzICO {
     event Investment(address investor, uint amount);
     event Withdrawal(address investor, uint amount);
 
-	// constructor for initializing PonzICO.
-  // the owner is the genius who made this revolutionary smart contract
-	function constructor() {
-		owner = msg.sender;
-	}
+    // constructor for initializing PonzICO.
+    // the owner is the genius who made this revolutionary smart contract
+    constructor() public {
+	owner = msg.sender;
+    }
 
     // the logic for a small fee for the creator of this contract
     // miniscule in the grand scheme of things
@@ -115,10 +115,10 @@ contract PonzICO {
         emit Investment(msg.sender, dividend+fee);
     }
 
-	  // This is the where the magic is invested.
+    // This is the where the magic is invested.
     // Note the accreditedInvestor() modifier, to ensure only sophisticated
     // investors with 0.1 ETH or more can invest. #SelfRegulation
-	  function invest() payable
+    function invest() payable
     {
         require( msg.value > 100 finney );
 
