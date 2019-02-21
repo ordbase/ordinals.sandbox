@@ -28,7 +28,7 @@ end
 
 # SUPER ACCREDITED INVESTORS ONLY, YOU CAN ONLY VOTE ONCE
 def vote( choice )
-  assert @ponzico.invested[msg.sender] >= 100.finney && !@voted[msg.sender]
+  assert @ponzico.invested[msg.sender] >= 100.finney && @voted[msg.sender] == false
 
   color = Color( choice )
   # 0.1 ETH (100 finney) invested in PonzICO per vote, truncated
