@@ -50,7 +50,7 @@ def winnovate
    assert msg.sender == owner
    winner = Color.solid_black
    (1..5).each do |choice|
-     if @votes[choice] > @votes[choice-1])
+     if @votes[choice] > @votes[choice-1]
         winner = Color(choice)
      end
   end
