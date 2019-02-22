@@ -47,7 +47,7 @@ contract SimpleLottery {
 }
 ```
 
-(Source: [`ethereum-games/blob/master/contracts/Lotteries.sol`](https://github.com/k26dr/ethereum-games/blob/master/contracts/Lotteries.sol))
+(Source: [`ethereum-games/contracts/Lotteries.sol`](https://github.com/k26dr/ethereum-games/blob/master/contracts/Lotteries.sol))
 
 
 The starter level one challenge - code the lottery contract using sruby :-).
@@ -231,7 +231,7 @@ contract Powerball {
 }
 ```
 
-(Source: [`ethereum-games/blob/master/contracts/Lotteries.sol`](https://github.com/k26dr/ethereum-games/blob/master/contracts/Lotteries.sol))
+(Source: [`ethereum-games/contracts/Lotteries.sol`](https://github.com/k26dr/ethereum-games/blob/master/contracts/Lotteries.sol))
 
 Can you do better?
 
