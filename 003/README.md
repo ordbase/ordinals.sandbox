@@ -55,7 +55,7 @@ The starter level one challenge - code the lottery contract using sruby :-).
 Let's move on to the real world and
 let's pick America's most popular lottery - Powerball Mega Millions.
 
-Powerball Trivia:  On January 13, 2016, Powerball produced the largest lottery jackpot in history ever; the $1 586 millions (!), that is, $1.586 billion jackpot was split by three tickets sold in Chino Hills, California, in Munford, Tennessee, and in Melbourne Beach, Florida. Congratulations!
+Powerball Trivia:  On January 13, 2016, Powerball produced the largest lottery jackpot in history ever; the $1 586 millions (!), that is, $1.586 billion jackpot was split by three tickets sold in Chino Hills, California; in Munford, Tennessee; and in Melbourne Beach, Florida. Congrats! [The Lucky Powerball Numbers were 4 8 19 27 34 and 10.](https://www.powerball.net/numbers/2016-01-13)
 
 Playing the game:
 
