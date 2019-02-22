@@ -1,6 +1,6 @@
 # (Secure) Ruby Quiz - Code Challenge #3 - Powerball Mega Millions Grand Prize - Create a Power Play Contract for America's Most Popular Lottery
 
-Let's use America's most popula lottery and make it provable fair by - surprise, surprise -
+Let's use America's most popular lottery and make it provable fair by - surprise, surprise -
 putting the machinery on the blockchain with a contract script.
 
 First let's warm-up with the simplest possible lottery contract
