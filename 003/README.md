@@ -54,6 +54,9 @@ The starter level one challenge - code the lottery contract using sruby :-).
 
 Let's move on to the real world and
 let's pick America's most popular lottery - Powerball Mega Millions.
+
+Powerball Trivia:  On January 13, 2016, Powerball produced the largest lottery jackpot in history ever; the $1 586 millions (!), that is, $1.586 billion jackpot was split by three tickets sold in Chino Hills, California, in Munford, Tennessee, and in Melbourne Beach, Florida. Congratulations!
+
 Playing the game:
 
 > In each game, players select five numbers from a set of 69 white balls 
@@ -87,9 +90,10 @@ Overall odds of winning a prize are 1 in 24.87.
 
 [a]: Odds of winning 0+1 prize are 1:38.32 instead of 1:26 as there is the possibility of also matching at least one white ball.
 
-Powerball Trivia:  On January 13, 2016, Powerball produced the largest lottery jackpot in history ever; the $1 586 millions (!), that is, $1.586 billion jackpot was split by three tickets sold in Chino Hills, California, in Munford, Tennessee, and in Melbourne Beach, Florida. Congratulations!
-
 The challenge let's make the lottery provable fair with a blockchain contract script. 
+
+Powerball Trivia: Two identical machines are used for each drawing, randomly selected from four sets. The model of machine used is the Halogen, manufactured by Smartplay International of Edgewater Park, New Jersey. There are eight ball sets (four of each color); one set of each color is randomly selected before a drawing. The balls are mixed by a turntable at the bottom of the machine that propels the balls around the chamber. When the machine selects a ball, the turntable slows to catch it, sends it up the shaft, and then down the rail to the display.
+
 Again let's use the Solidity code 
 from the book "Building Games with Ethereum Smart Contracts"
 by Kedar Iyer and Chris Dannen
