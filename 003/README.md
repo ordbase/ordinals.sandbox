@@ -59,18 +59,18 @@ Powerball Trivia:  On January 13, 2016, Powerball produced the largest lottery j
 
 Playing the game:
 
-> In each game, players select five numbers from a set of 69 white balls 
-> and one number from 26 red Powerballs; 
-> the red ball number can be the same as one of the white balls. 
-> The drawing order of the five white balls is irrelevant. 
-> Players CANNOT use the drawn Powerball to match white numbers, or vice versa.
->
-> In each drawing, winning numbers are selected using two ball machines: 
-> one containing the white balls and the other containing the red Powerballs. 
-> Five white balls are drawn from the first machine and the red ball from the second machine.
-> Games matching at least three white balls or the red Powerball win.
->
-> (Source: [Powerball @ Wikipedia](https://en.wikipedia.org/wiki/Powerball))
+In each game, players select five numbers from a set of 69 white balls 
+and one number from 26 red Powerballs; 
+the red ball number can be the same as one of the white balls. 
+The drawing order of the five white balls is irrelevant. 
+Players CANNOT use the drawn Powerball to match white numbers, or vice versa.
+
+In each drawing, winning numbers are selected using two ball machines: 
+one containing the white balls and the other containing the red Powerballs. 
+Five white balls are drawn from the first machine and the red ball from the second machine.
+Games matching at least three white balls or the red Powerball win.
+
+(Source: [Powerball @ Wikipedia](https://en.wikipedia.org/wiki/Powerball))
 
 And here are the odds and prizes / payouts for a minimum $2 ticket:
 
