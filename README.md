@@ -4,6 +4,7 @@ The (Secure) Ruby Quiz is a fortnightly contract programming challenge for Ruby 
 
 - [Code Challenge #1 - Create a 3x3 Tic-Tac-Toe Player vs Player Game Contract](001)
 - [Code Challenge #2 - Create a PonzICO Investment Contract - Blockchain Performance Art](002)
+- [Code Challenge #3 - Powerball Mega Millions Grand Prize - Create a Power Play Contract for America's Most Popular Lottery](003)
 
 
 ### New to (Secure) Ruby Programming?
