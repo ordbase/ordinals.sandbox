@@ -60,7 +60,7 @@ Playing the game:
 > and one number from 26 red Powerballs; 
 > the red ball number can be the same as one of the white balls. 
 > The drawing order of the five white balls is irrelevant. 
-> Players cannot use the drawn Powerball to match two of their white numbers, or vice versa.
+> Players CANNOT use the drawn Powerball to match white numbers, or vice versa.
 >
 > In each drawing, winning numbers are selected using two ball machines: 
 > one containing the white balls and the other containing the red Powerballs. 
@@ -71,18 +71,23 @@ Playing the game:
 
 And here are the odds and prizes / payouts for a minimum $2 ticket:
 
-Matches                       | Prize | Odds of winning         |
-------------------------------|------:|-------------------------|
-Powerball only (0+1)          |  $4   | 1 in 38.32 |
-1 Number plus Powerball (1+1) |  $4   | 1 in 91.98 |
-2+1                           |  $7   | 1 in 701.33 |
-3+0                           |  $7   | 1 in 579.76 |
-3+1                           | $100  | 1 in 14 494.11 |
-4+0                           | $100  | 1 in 36 525.17  |
-4+1                           | $50000 |  1 in 913 129.18 |
-5+0                           | $1000000 |  1 in 11 688 053.52 |
-5+1                           | Mega Million Jackpot / Grand Prize |  1 in 292 201 338 |
+| Matches                       | Prize | Odds of winning         |
+|-------------------------------|------:|-------------------------|
+| 0+1  (Match Powerball Only)   |  $4   | 1 in 38.32 [a] |
+| 1+1  (Match 1 + Powerball)    |  $4   | 1 in 91.98 |
+| 2+1  (Match 2 + Powerball)    |  $7   | 1 in 701.33 |
+| 3+0  (Match 3 Numbers)        |  $7   | 1 in 579.76 |
+| 3+1  (Match 3 + Powerball)    | $100  | 1 in 14 494.11 |
+| 4+0  (Match 4 Numbers)        | $100  | 1 in 36 525.17  |
+| 4+1  (Match 4 + Powerball)    | $50000 |  1 in 913 129.18 |
+| 5+0  (Match 5 Numbers)        | $1000000 |  1 in 11 688 053.52 |
+| 5+1  (Match 5 + Powerball)    | Mega Million Jackpot / Grand Prize |  1 in 292 201 338 |
 
+Overall odds of winning a prize are 1 in 24.87.
+
+[a]: Odds of winning 0+1 prize are 1:38.32 instead of 1:26 as there is the possibility of also matching at least one white ball.
+
+Powerball Trivia:  On January 13, 2016, Powerball produced the largest lottery jackpot in history ever; the $1 586 millions (!), that is, $1.586 billion jackpot was split by three tickets sold in Chino Hills, California, in Munford, Tennessee, and in Melbourne Beach, Florida. Congratulations!
 
 The challenge let's make the lottery provable fair with a blockchain contract script. 
 Again let's use the Solidity code 
