@@ -60,7 +60,7 @@ def e18() self * E18; end
 ### Ether
 
 ``` ruby
-def.wei()        self; end
+def wei()        self; end
 def kwei()       self * e3; end
 def mwei()       self * e6; end
 def gwei()       self * e9; end
