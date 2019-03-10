@@ -41,6 +41,7 @@ module ExponentialUnits
   E17 = 10**17  #   100_000_000_000_000_000
   E18 = 10**18  # 1_000_000_000_000_000_000
 
+  def e2()  self * E2; end
   def e3()  self * E3; end
   def e4()  self * E4; end
   def e5()  self * E5; end
