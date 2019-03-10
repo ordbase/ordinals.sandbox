@@ -22,6 +22,7 @@ def Money( arg ) arg; end
 
 
 module ExponentialUnits
+
   E2  = 10**2   #                       100
   E3  = 10**3   #                      1000
   E4  = 10**4   #                    10_000
@@ -56,7 +57,7 @@ module ExponentialUnits
   def e16() self * E16; end
   def e17() self * E17; end
   def e18() self * E18; end
-end
+end # module  ExponentialUnits
 
 
 module EtherUnits
@@ -80,12 +81,12 @@ module EtherUnits
   #   finney         => Hal Finney (1956-2014)
 
   def wei()        self; end
-  def kwei()       self * E3; end
-  def mwei()       self * E6; end
-  def gwei()       self * E9; end
-  def microether() self * E12; end
-  def milliether() self * E15; end
-  def ether()      self * E18; end
+  def kwei()       self * e3; end
+  def mwei()       self * e6; end
+  def gwei()       self * e9; end
+  def microether() self * e12; end
+  def milliether() self * e15; end
+  def ether()      self * e18; end
 
   ########################################################
   ## aliases

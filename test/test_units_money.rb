@@ -17,9 +17,19 @@ def test_exponential
   assert_equal 1_000_000_000,             1.e9
   assert_equal 1_000_000,                 1.e6
   assert_equal 1_000,                     1.e3
+
+  assert_equal 1_000_000_000_000_000_000, Integer::E18
+  assert_equal 1_000_000_000_000_000,     Integer::E15
+  assert_equal 1_000_000_000_000,         Integer::E12
+  assert_equal 1_000_000_000,             Integer::E9
+  assert_equal 1_000_000,                 Integer::E6
+  assert_equal 1_000,                     Integer::E3
 end
 
+
 def test_ether
+  pp Integer.ancestors.inspect
+
   value = rand( 1_000_000_000 )
 
   assert_equal 1_000_000_000_000_000_000,       1.ether
