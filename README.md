@@ -19,8 +19,8 @@ the "built-in" artbase index / registry (also known as [artbase/collections.csv]
 Using the OpenSea Slug for a (pixel) art collection
 lets you browse online or query the API.
 
--  `opensea.io/collection/<slug>`
--  `api.opensea.io/api/v1/collection/<slug>?format=json`
+-  `opensea.io/collection/{slug}`
+-  `api.opensea.io/api/v1/collection/{slug}?format=json`
 
 
 Example: opensea_slug: pixel-goblintown
