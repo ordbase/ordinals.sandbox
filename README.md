@@ -13,27 +13,9 @@ lookup ready-to-use artbase configurations / setups in
 the "built-in" artbase index / registry (also known as [artbase/collections.csv](https://github.com/pixelartexchange/artbase/blob/master/collections.csv)).
 
 
-
 ## What's the OpenSea Slug?
 
-Using the OpenSea Slug for a (pixel) art collection
-lets you browse online or query the API.
-
--  `opensea.io/collection/{slug}`
--  `api.opensea.io/api/v1/collection/{slug}?format=json`
-
-
-Example: opensea_slug: pixel-goblintown
-
-Use
-
-- <https://opensea.io/collection/pixel-goblintown>
-
-to browse online and use
-
-- <https://api.opensea.io/api/v1/collection/pixel-goblintown?format=json>
-
-to query the api for statistics & more.
+See the [OpenSea (Download) Cache »](https://github.com/pixelartexchange/opensea.cache)
 
 
 
