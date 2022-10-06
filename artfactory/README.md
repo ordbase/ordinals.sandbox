@@ -43,6 +43,7 @@ id, category, name, more_names
 
 
 ``` ruby
+require 'artfactory'
 
 # step 1 - setup the art factory;
 #    pass-in the spritesheet image & (meta) dataset and
@@ -86,6 +87,8 @@ Resulting in:
 ###  Setup Variant 2
 
 ``` ruby
+require 'artfactory'
+
 # step 1 - setup the art factory;
 #    use an "external" spritesheet configuration
 
