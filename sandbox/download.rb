@@ -1,7 +1,8 @@
 require 'cocos'
 
 
-name = 'ordinalpenguins'
+# name = 'ordinalpenguins'
+name  = 'yetibitclub'
 
 
 recs = read_csv( "./#{name}/ordinals.csv" )
@@ -38,7 +39,7 @@ recs.each_with_index do |rec,i|
               end
 
      ## save image - using b(inary) mode
-     write_blob( "./#{name}/i/#{num}.#{format}", res.blob )
+     write_blob( "./#{name}/token-i/#{num}.#{format}", res.blob )
 
      sleep( 1.0 )  ## sleep (delay_in_s)
   else

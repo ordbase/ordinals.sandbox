@@ -6,7 +6,8 @@ require 'cocos'
 ##   <img class="img-fluid" src="https://ordinals.com/content/0cc4000a34b8549afd96b48b78a0d491c541618b2b1f2e0364a48f2d9cccc8cei0">
 
 
-name  = 'ordinalpenguins'
+# name  = 'ordinalpenguins'
+name  = 'yetibitclub'
 
 
 txt = read_text( "./#{name}/page.txt" )
