@@ -7,8 +7,11 @@ require 'pixelart'
 # name  = 'yetibitclub'
 # width, height = [28,28]
 
-name  = 'bitcoinbears'
-width, height = [48,48]
+# name  = 'bitcoinbears'
+# width, height = [48,48]
+
+name = 'bitcoinpunks'
+width, height = [24,24]
 
 
 recs = read_csv( "./#{name}/ordinals.csv" )

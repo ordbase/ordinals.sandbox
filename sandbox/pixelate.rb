@@ -9,8 +9,11 @@ require 'pixelart'
 # width, height = [28,28]
 # -- [0,69, 107]  - note: use 1700x1700
 
-name  = 'bitcoinbears'
-width, height = [48,48]
+# name  = 'bitcoinbears'
+# width, height = [48,48]
+
+name = 'bitcoinpunks'
+width, height = [24,24]
 
 
 recs = read_csv( "./#{name}/ordinals.csv" )
@@ -26,7 +29,7 @@ recs.each_with_index do |rec,i|
   img = Image.read( path )
   puts "   #{img.width}x#{img.height}"
 
-  if img.width != 192
+  if img.width != 576
     puts "  !! ERROR - unexpected image size; sorry"
     exit 1
   end
@@ -34,7 +37,8 @@ recs.each_with_index do |rec,i|
   ## steps = Image.calc_sample_steps( 192, 35 )
   ## steps = Image.calc_sample_steps( 1400, 28 )
   ## steps = Image.calc_sample_steps( 1700, 28 )
-  steps = Image.calc_sample_steps( 192, 48 )
+  ## steps = Image.calc_sample_steps( 192, 48 )
+  steps = Image.calc_sample_steps( 576, 24 )
 
   img = img.sample( steps, steps )
   img.save( "./#{name}/#{width}x#{height}/#{num}.png" )

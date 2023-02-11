@@ -3,7 +3,9 @@ require 'cocos'
 
 # name = 'ordinalpenguins'
 # name  = 'yetibitclub'
-name  = 'bitcoinbears'
+# name  = 'bitcoinbears'
+name = 'bitcoinpunks'
+
 
 
 recs = read_csv( "./#{name}/ordinals.csv" )
