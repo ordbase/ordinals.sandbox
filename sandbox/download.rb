@@ -1,14 +1,17 @@
 require 'cocos'
 
 
-recs = read_csv( "./ordinal-punks/ordinals.csv" )
+name = 'ordinalpenguins'
+
+
+recs = read_csv( "./#{name}/ordinals.csv" )
 puts "  #{recs.size} record(s)"
 
 recs.each_with_index do |rec,i|
   id  = rec['id']
   num = rec['num']
 
-  next if File.exist?( "./ordinal-punks/i/#{num}.png" )
+  next if File.exist?( "./#{name}/i/#{num}.png" )
 
   puts "==> downloading image ##{num}..."
 
@@ -35,7 +38,7 @@ recs.each_with_index do |rec,i|
               end
 
      ## save image - using b(inary) mode
-     write_blob( "./ordinal-punks/i/#{num}.#{format}", res.blob )
+     write_blob( "./#{name}/i/#{num}.#{format}", res.blob )
 
      sleep( 1.0 )  ## sleep (delay_in_s)
   else
