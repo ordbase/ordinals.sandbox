@@ -3,15 +3,18 @@ require 'pixelart'
 
 # name = 'ordinalpenguins'
 # width, height = [35, 35]
-name  = 'yetibitclub'
-width, height = [28,28]
 
+# name  = 'yetibitclub'
+# width, height = [28,28]
+
+name  = 'bitcoinbears'
+width, height = [48,48]
 
 
 recs = read_csv( "./#{name}/ordinals.csv" )
 puts "  #{recs.size} record(s)"
 
-composite = ImageComposite.new( 11, 11, width:  width,
+composite = ImageComposite.new( 10, 10, width:  width,
                                         height: height )
 
 recs.each_with_index do |rec,i|
