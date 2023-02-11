@@ -4,7 +4,8 @@ require 'cocos'
 # name = 'ordinalpenguins'
 # name  = 'yetibitclub'
 # name  = 'bitcoinbears'
-name = 'bitcoinpunks'
+# name = 'bitcoinpunks'
+name = 'ordinalbirds'
 
 
 

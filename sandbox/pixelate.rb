@@ -12,8 +12,11 @@ require 'pixelart'
 # name  = 'bitcoinbears'
 # width, height = [48,48]
 
-name = 'bitcoinpunks'
-width, height = [24,24]
+# name = 'bitcoinpunks'
+# width, height = [24,24]
+
+name = 'ordinalbirds'
+width, height = [42,42]
 
 
 recs = read_csv( "./#{name}/ordinals.csv" )
@@ -29,7 +32,7 @@ recs.each_with_index do |rec,i|
   img = Image.read( path )
   puts "   #{img.width}x#{img.height}"
 
-  if img.width != 576
+  if img.width != 192
     puts "  !! ERROR - unexpected image size; sorry"
     exit 1
   end
@@ -38,7 +41,8 @@ recs.each_with_index do |rec,i|
   ## steps = Image.calc_sample_steps( 1400, 28 )
   ## steps = Image.calc_sample_steps( 1700, 28 )
   ## steps = Image.calc_sample_steps( 192, 48 )
-  steps = Image.calc_sample_steps( 576, 24 )
+  ## steps = Image.calc_sample_steps( 576, 24 )
+  steps = Image.calc_sample_steps( 192, 42 )
 
   img = img.sample( steps, steps )
   img.save( "./#{name}/#{width}x#{height}/#{num}.png" )

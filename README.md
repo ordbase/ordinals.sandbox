@@ -27,6 +27,12 @@ For more, see
 ![](i/ordinalpenguins.png)
 
 
+**100 Ordinal Birds (42×42)**
+
+![](i/ordinalbirds.png)
+
+
+
 **100 Bitcoin Bears (48×48)**
 
 ![](i/bitcoinbears.png)

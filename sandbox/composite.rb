@@ -10,8 +10,12 @@ require 'pixelart'
 # name  = 'bitcoinbears'
 # width, height = [48,48]
 
-name = 'bitcoinpunks'
-width, height = [24,24]
+# name = 'bitcoinpunks'
+# width, height = [24,24]
+
+
+name = 'ordinalbirds'
+width, height = [42,42]
 
 
 recs = read_csv( "./#{name}/ordinals.csv" )
