@@ -1,0 +1,39 @@
+require 'hoe'
+
+
+###
+# hack/ quick fix for broken intuit_values - overwrite with dummy
+class Hoe
+  def intuit_values( input ); end
+end
+
+
+Hoe.spec 'ordinals' do
+
+  self.version = '0.0.1'
+
+  self.summary = "ordinals gem - (off-chain) ordinals (pixel art) machinery & helpers for Bitcoin & co."
+  self.description = summary
+
+  self.urls    = { home: 'https://github.com/pixelartexchange/ordinals.sandbox' }
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'wwwmake@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps = [
+    ['cocos'],
+    ['pixelart'],
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.3'
+  }
+
+end
+
