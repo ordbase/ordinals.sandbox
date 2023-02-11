@@ -1,0 +1,25 @@
+#####
+# exclude all tmp directories
+o/
+tmp/
+tmp2/
+tmp3/
+
+
+###
+# ignore all html dumps for now - why? why not?
+page.txt
+page.html
+
+
+
+## exclude all original size images (e.g. 240x240, etc)
+token-i/
+
+## todo/check - exclude syntax for dirs use token-i  or /token-i or token-i/
+##                        or tmp or /tmp or tmp/ or /tmp/ etc.
+
+
+## ignore dot env (.env) variables
+.env
+

@@ -1,0 +1,4 @@
+# Ordinal Punks Notes
+
+
+
