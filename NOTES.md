@@ -17,3 +17,9 @@ Add some more
 100 Ordi Doodles
 - https://ordinalsdirectory.com/ordidoodles/
 - https://twitter.com/Ordidoodles
+
+
+111 Extraordinal Women
+- https://ordinalsdirectory.com/extraordinal-women/
+- https://twitter.com/ExtraordinalW
+
