@@ -98,11 +98,17 @@ def pixelate
       exit 1
     end
 
-    steps_x = Image.calc_sample_steps( img.width, @width )
-    steps_y = Image.calc_sample_steps( img.height, @height )
+    ## check for special case   source == format!!
+    if [img.width,img.height] == [@width,@height]
+      puts "   note: saving image as is - no downsampling"
+      img.save( outpath )
+    else
+      steps_x = Image.calc_sample_steps( img.width, @width )
+      steps_y = Image.calc_sample_steps( img.height, @height )
 
-    img = img.sample( steps_x, steps_y )
-    img.save( outpath )
+      img = img.sample( steps_x, steps_y )
+      img.save( outpath )
+    end
   end
 end
 

@@ -11,7 +11,9 @@ require 'cocos'
 # name  = 'bitcoinbears'
 # name = 'bitcoinpunks'
 # name = 'ordinalbirds'
-name = 'inscribedpepes'
+# name = 'inscribedpepes'
+name = 'extraordinalwomen'
+
 
 txt = read_text( "./#{name}/page.txt" )
 
