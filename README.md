@@ -9,6 +9,15 @@ Top Ordinal Collections (Market Data Snapshot)
 # Ordinals (Pixel Art) Sandbox (& Cache)
 
 
+Yes, you can!
+Start your own
+sandbox (& cache) or "right-clicker" ordinal backup / archive / gallery.
+For a step-by-step guide and more see
+the [**ordinals package (with the ordbase command-line tool) »**](ordinals)
+
+
+
+
 
 **100 Ordinal Punks (24×24)**
 

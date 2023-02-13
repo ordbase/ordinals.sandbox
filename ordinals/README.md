@@ -9,7 +9,8 @@ ordinals gem - "right-clicker" (off-chain) ordinals (pixel art) machinery & help
 * rdoc  :: [rubydoc.info/gems/ordinals](http://rubydoc.info/gems/ordinals)
 
 
-## Comand-Line Usage
+
+## Command-Line Usage
 
 Let's use the 100 Ordinal Punks collection to try out the
 `ordbase` command-line tool shipping with the ordinals package.
