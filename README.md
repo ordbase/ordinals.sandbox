@@ -47,6 +47,13 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 
 
+**69 Inscibed Pepes (64×64)**
+
+![](i/inscribedpepes.png)
+
+
+
+
 
 ## Questions? Comments?
 
