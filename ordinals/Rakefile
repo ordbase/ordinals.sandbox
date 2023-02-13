@@ -10,9 +10,9 @@ end
 
 Hoe.spec 'ordinals' do
 
-  self.version = '0.0.1'
+  self.version = '0.1.0'
 
-  self.summary = "ordinals gem - (off-chain) ordinals (pixel art) machinery & helpers for Bitcoin & co."
+  self.summary = 'ordinals gem - "right-clicker" (off-chain) ordinals (pixel art) machinery & helpers for Bitcoin & co.'
   self.description = summary
 
   self.urls    = { home: 'https://github.com/pixelartexchange/ordinals.sandbox' }

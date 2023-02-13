@@ -2,4 +2,6 @@ CHANGELOG.md
 Manifest.txt
 README.md
 Rakefile
+bin/ordbase
 lib/ordinals.rb
+lib/ordinals/collection.rb
