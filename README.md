@@ -52,6 +52,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/bitcoinbears.png)
 
 
+**(15 of) 69 Ordi Doodles (50×50)**
+
+![](i/ordidoodles.png)
+
+
 
 **69 Inscibed Pepes (64×64)**
 

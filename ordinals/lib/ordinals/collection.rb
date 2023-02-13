@@ -115,6 +115,7 @@ end
 
 def make_composite
   cols, rows = case count
+               when    15 then   [5,   3]
                when    69 then   [10,  7]
                when    99 then   [10,  10]
                when   100 then   [10,  10]
