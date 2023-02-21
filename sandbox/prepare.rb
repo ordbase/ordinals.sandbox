@@ -20,7 +20,8 @@ require 'cocos'
 # name = 'eldersofcrypto'
 # name = 'ordinalminidoges'
 # name = 'ordinalgoldbirds'
-name = 'ordinarypeople'
+# name = 'ordinarypeople'
+name = 'taprootpunks'
 
 
 txt = read_text( "./#{name}/page.txt" )

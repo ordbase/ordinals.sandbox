@@ -33,6 +33,13 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/bitcoinpunks.png)
 
 
+**100 Taproot Punks (24×24)**
+
+![](i/taprootpunks.png)
+
+
+
+
 **100 Ordinal Mini Doges (24×24)**
 
 ![](i/ordinalminidoges.png)

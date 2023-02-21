@@ -146,6 +146,10 @@ def convert_images
   ## todo: check for gifs too - why? why not?
   Image.convert( image_dir, from: 'jpg',
                             to:   'png' )
+
+  Image.convert( image_dir, from: 'webp',
+                            to:   'png' )
+
 end
 
 
@@ -174,6 +178,8 @@ def download_images
                 'png'
                elsif content_type =~ %r{image/gif}i
                  'gif'
+               elsif content_type =~ %r{image/webp}i
+                 'webp'
                else
                  puts "!! ERROR:"
                  puts " unknown image format content type: >#{content_type}<"
