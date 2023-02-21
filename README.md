@@ -85,7 +85,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/bitcoinbears.png)
 
 
-**(15 of) 69 Ordi Doodles (50×50)**
+**100 Ordi(nal) Doodles (50×50)**
 
 ![](i/ordidoodles.png)
 
