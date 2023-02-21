@@ -90,6 +90,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordidoodles.png)
 
 
+**100 Ordinal Waifus (50×50)**
+
+![](i/ordinalwaifus.png)
+
+
 
 **10 Elders Of Crypto (64×64)**
 
