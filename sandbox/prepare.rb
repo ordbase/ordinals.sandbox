@@ -16,12 +16,12 @@ require 'cocos'
 # name = 'ordinalbirds'
 # name = 'inscribedpepes'
 # name = 'extraordinalwomen'
-# name = 'ordidoodles'
 # name = 'eldersofcrypto'
 # name = 'ordinalminidoges'
 # name = 'ordinalgoldbirds'
 # name = 'ordinarypeople'
-name = 'taprootpunks'
+# name = 'taprootpunks'
+name = 'ordidoodles'
 
 
 txt = read_text( "./#{name}/page.txt" )
