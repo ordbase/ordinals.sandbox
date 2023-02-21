@@ -52,6 +52,12 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/yetibitclub.png)
 
 
+**130 Shadow Smokers (30×30)**
+
+![](i/shadowsmokers.png)
+
+
+
 **20 Ordinary People (32×32)**
 
 ![](i/ordinarypeople.png)

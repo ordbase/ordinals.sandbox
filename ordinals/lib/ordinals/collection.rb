@@ -123,6 +123,7 @@ def make_composite
                when    99 then   [10,  10]
                when   100 then   [10,  10]
                when   111 then   [11,  11]
+               when   130 then   [10,  13]
                else
                    raise ArgumentError, "sorry - unknown composite count #{count} for now"
                end
