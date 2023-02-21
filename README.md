@@ -37,6 +37,9 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 ![](i/taprootpunks.png)
 
+**100 Ordinary Apes (24×24)**
+
+![](i/ordinaryapes.png)
 
 
 
@@ -73,6 +76,12 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 **100 Ordinal Penguins (35×35)**
 
 ![](i/ordinalpenguins.png)
+
+
+**512 Bitcoin Bandits (36×36)**
+
+![](i/bitcoinbandits.png)
+
 
 
 **12 Ordinal Gold Birds (42×42)**
