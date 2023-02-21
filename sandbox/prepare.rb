@@ -26,8 +26,8 @@ require 'cocos'
 # name = 'ordinalwaifus'
 # name = 'shadowsmokers'
 # name = 'bitcoinbandits'
-name = 'ordinaryapes'
-
+# name = 'ordinaryapes'
+name = 'pependrian'
 
 txt = read_text( "./#{name}/page.txt" )
 

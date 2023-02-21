@@ -127,6 +127,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/bitcoingoblins.png)
 
 
+**69 Pependrian (76×76)**
+
+![](i/pependrian.png)
+
+
 
 
 ## Questions? Comments?
