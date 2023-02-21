@@ -21,11 +21,17 @@ require 'cocos'
 # name = 'ordinalgoldbirds'
 # name = 'ordinarypeople'
 # name = 'taprootpunks'
-name = 'ordidoodles'
+# name = 'ordidoodles'
+name = 'bitcoingoblins'
 
 
 txt = read_text( "./#{name}/page.txt" )
 
+
+
+##
+##  https://turbo.ordinalswallet.com/inscription/content/7b4621462d4b1ce59045950774c9f4f82c1fac0fa8c5838a2a5bc6b6d06705dfi0
+##
 
 IMG_RX = %r{
              <img
