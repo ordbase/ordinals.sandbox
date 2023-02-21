@@ -47,7 +47,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 **20 Ordinary People (32×32)**
 
-![](i/eordinarypeople.png)
+![](i/ordinarypeople.png)
 
 
 
