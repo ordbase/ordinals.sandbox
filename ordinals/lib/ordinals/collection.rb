@@ -120,6 +120,8 @@ def make_composite
                when    15 then   [5,   3]
                when    20 then   [5,   4]
                when    69 then   [10,  7]
+               when    80 then   [10,  8]
+               when    88 then   [10,  9]
                when    99 then   [10,  10]
                when   100 then   [10,  10]
                when   111 then   [11,  11]

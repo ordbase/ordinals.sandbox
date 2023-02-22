@@ -42,6 +42,19 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 ![](i/taprootpunks.png)
 
+
+**88 G-Punks (24×24)**
+
+![](i/gpunks.png)
+
+
+**80 Forgotten Punks (24×24)**
+
+![](i/forgottenpunks.png)
+
+
+
+
 **100 Ordinary Apes (24×24)**
 
 ![](i/ordinaryapes.png)
