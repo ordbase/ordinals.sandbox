@@ -44,8 +44,8 @@ alias_method :size, :count
 
 
 def each_ordinal( &block )
-  ordinals.each do |rec|   ## pass along hash rec for now - why? why not?
-    block.call( rec )
+  ordinals.each_with_index do |rec, i|   ## pass along hash rec for now - why? why not?
+    block.call( rec, i )
   end
 end
 
@@ -54,9 +54,9 @@ end
 
 
 def each_image( &block )
-  each_ordinal do |rec|
-    id  = rec['id']
-    num = rec['num'].to_i(10)
+  each_ordinal do |rec, i|
+    id   = rec['id']
+    num  = rec.has_key?('num') ? rec['num'].to_i(10) : i+1
 
     path = "./#{@slug}/#{@width}x#{@height}/#{num}.png"
     img = Image.read( path )
@@ -78,9 +78,9 @@ end
 
 
 def pixelate
-  each_ordinal do |rec|
-    id  = rec['id']
-    num = rec['num']
+  each_ordinal do |rec, i|
+    id   = rec['id']
+    num  = rec.has_key?('num') ? rec['num'].to_i(10) : i+1
 
     outpath = "./#{@slug}/#{@width}x#{@height}/#{num}.png"
     next if File.exist?( outpath )
@@ -162,15 +162,16 @@ end
 
 
 def download_images
-  each_ordinal do |rec|
-    id  = rec['id']
-    num = rec['num']
+  each_ordinal do |rec, i|
+    id   = rec['id']
+    num  = rec.has_key?('num') ? rec['num'].to_i(10) : i+1
 
     next if File.exist?( "#{image_dir}/#{num}.png" )
 
     puts "==> downloading image ##{num}..."
 
-    image_url = "https://ordinals.com/content/#{id}"
+    ## image_url = "https://ordinals.com/content/#{id}"
+    image_url = "https://litecoin.earlyordies.com/content/#{id}"
 
     res = Webclient.get( image_url )
 

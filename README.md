@@ -38,6 +38,12 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/bitcoinpunks.png)
 
 
+**100 Litecoin Punks (24×24)**
+
+![](i/litecoinpunks.png)
+
+
+
 **100 Taproot Punks (24×24)**
 
 ![](i/taprootpunks.png)

@@ -5,6 +5,28 @@
 Try Ordinals HTTP API
 - see <https://ordapi.xyz/>
 
+
+## Add Litcoin Collections
+
+- how to get ordinals.com like the content?
+- any litecoin ordianl directories?
+  - https://litecoin.earlyordies.com   ??
+
+
+collections:
+-  Litecoin Punks !!!  100 or more ??
+   - https://twitter.com/LitecoinPunks
+
+> you might want to look at #642-#798
+
+> All Litecoin Punks have been minted!
+> Between inscription numbers #642-#798  !!
+
+
+-  100 Lil' Ordinal Phunks (smaller version of Ordinal Punks!)
+   -
+
+
 ## More Collections
 
 Add some more
