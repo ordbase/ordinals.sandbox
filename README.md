@@ -81,6 +81,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/extraordinalwomen.png)
 
 
+**100 Ordinal Goros (32×32)**
+
+![](i/ordinalgoros.png)
+
+
 
 **100 Ordinal Penguins (35×35)**
 

@@ -1,0 +1,12 @@
+
+
+slug:       ordinalgoros
+count:      100
+format:     32x32
+source:     [512x512,352x352]
+offset:     1
+
+####
+## note: count is 101 (no. 101 is NOT pixel art - exclude for now - why? why not)
+##
+##   101, 7bbb08af90ee321c944a54f42ae231fecc725ea727b959e11f2da1ee6681c061i0

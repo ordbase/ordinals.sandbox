@@ -153,6 +153,9 @@ def convert_images
 
   Image.convert( image_dir, from: 'webp',
                             to:   'png' )
+
+#  Image.convert( image_dir, from: 'png',
+#                            to:   'png' )
 end
 
 

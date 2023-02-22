@@ -28,7 +28,8 @@ require 'cocos'
 # name = 'bitcoinbandits'
 # name = 'ordinaryapes'
 # name = 'engraveddragons'
-name = 'popordinalcats'
+# name = 'popordinalcats'
+name = 'ordinalgoros'
 
 
 txt = read_text( "./#{name}/page.txt" )
