@@ -43,6 +43,15 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 
 
+**100 Engraved Dragons (24×24)**
+
+![](i/engraveddragons.png)
+
+
+
+
+
+
 **100 Ordinal Mini Doges (24×24)**
 
 ![](i/ordinalminidoges.png)
@@ -126,6 +135,10 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 ![](i/bitcoingoblins.png)
 
+
+**20 (of 80) Pop Ordinal Cats (100×100)**
+
+![](i/popordinalcats.png)
 
 
 

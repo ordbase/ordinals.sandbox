@@ -145,13 +145,14 @@ end
 
 
 def convert_images
-  ## todo: check for gifs too - why? why not?
   Image.convert( image_dir, from: 'jpg',
+                            to:   'png' )
+
+  Image.convert( image_dir, from: 'gif',
                             to:   'png' )
 
   Image.convert( image_dir, from: 'webp',
                             to:   'png' )
-
 end
 
 
