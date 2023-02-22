@@ -27,6 +27,11 @@ the [**ordinals package (with the ordbase command-line tool) »**](ordinals)
 New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno 2023) Notes - 24×24 Pixel Art on the (Bitcoin) Blockchain »**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/awesome-ordinalpunks)
 
 
+**100 Ordinal Phunks (24×24)**
+
+![](i/ordinalphunks.png)
+
+
 
 **100 Bitcoin Punks (24×24)**
 
@@ -122,6 +127,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 **100 Ordinal Waifus (50×50)**
 
 ![](i/ordinalwaifus.png)
+
+
+**100 Ordinal Minis (50×50)**
+
+![](i/ordinalminis.png)
 
 
 
