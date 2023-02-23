@@ -49,7 +49,9 @@ class Tool
       do_download_images( slug )
     elsif ['conv','convert'].include?( command )
       do_convert_images( slug )
-    elsif ['px','pixelate' ].include?( command )
+    elsif ['fix'].include?( command )
+      do_fix_images( slug )
+    elsif ['px','pix', 'pixelate' ].include?( command )
       do_pixelate( slug )
     elsif ['comp','composite' ].include?( command )
       do_make_composite( slug )
@@ -76,6 +78,14 @@ class Tool
     col = Collection.new( slug )
     col.convert_images
   end
+
+  def self.do_fix_images( slug )
+    puts "==> fix images for collection >#{slug}<..."
+
+    col = Collection.new( slug )
+    col.fix_images
+  end
+
 
   def self.do_pixelate( slug )
     puts "==> downsample / pixelate images for collection >#{slug}<..."

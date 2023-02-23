@@ -119,6 +119,7 @@ def make_composite
                when    12 then   [4,   3]
                when    15 then   [5,   3]
                when    20 then   [5,   4]
+               when    50 then   [10,  5]
                when    69 then   [10,  7]
                when    80 then   [10,  8]
                when    88 then   [10,  9]
@@ -155,11 +156,23 @@ def convert_images
 
   Image.convert( image_dir, from: 'webp',
                             to:   'png' )
-
-#  Image.convert( image_dir, from: 'png',
-#                            to:   'png' )
 end
 
+
+
+def fix_images   ## todo - find a different names for resaving png images?
+  ##  "repair" png images
+  ##    starting w/
+  ##  - why?
+  ##
+  ## verify_signature! - ChunkyPNG::SignatureMismatch:
+  ##  PNG signature not found,
+  ##  found     "RIFF\\xFE\\b\\x00\\x00"
+  ##  instead of "\\x89PNG\\r\\n\\x1A\\n"
+
+  Image.convert( image_dir, from: 'png',
+                            to:   'png' )
+end
 
 def download_images
   each_ordinal do |rec, i|
@@ -170,8 +183,8 @@ def download_images
 
     puts "==> downloading image ##{num}..."
 
-    ## image_url = "https://ordinals.com/content/#{id}"
-    image_url = "https://litecoin.earlyordies.com/content/#{id}"
+    image_url = "https://ordinals.com/content/#{id}"
+    ## image_url = "https://litecoin.earlyordies.com/content/#{id}"
 
     res = Webclient.get( image_url )
 

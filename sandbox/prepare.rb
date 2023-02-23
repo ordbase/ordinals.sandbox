@@ -33,7 +33,8 @@ require 'cocos'
 # name = 'ordinalminis'
 # name = 'ordinalphunks'
 # name = 'forgottenpunks'
-name = 'gpunks'
+# name = 'gpunks'
+name = '1337ordinals'
 
 txt = read_text( "./#{name}/page.txt" )
 

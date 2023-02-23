@@ -59,6 +59,10 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/forgottenpunks.png)
 
 
+**50 Ordinal Hero Punks (24×24)**
+
+![](i/ordinalheropunks.png)
+
 
 
 **100 Ordinary Apes (24×24)**
@@ -108,6 +112,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 **100 Ordinal Goros (32×32)**
 
 ![](i/ordinalgoros.png)
+
+
+**69 1337 (Skull) Ordinals (32×32)**
+
+![](i/1337ordinals.png)
 
 
 
