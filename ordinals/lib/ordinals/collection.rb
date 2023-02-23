@@ -125,6 +125,7 @@ def make_composite
                when    88 then   [10,  9]
                when    99 then   [10,  10]
                when   100 then   [10,  10]
+               when   101 then   [11,  10]
                when   111 then   [11,  11]
                when   130 then   [10,  13]
                when   512 then   [20,  26]

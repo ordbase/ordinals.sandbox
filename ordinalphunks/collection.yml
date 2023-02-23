@@ -1,8 +1,10 @@
 
 
 slug:       ordinalphunks
-count:      100
+count:      101
 format:     24x24
 source:     24x24
-offset:     1
 
+
+###
+#  note:  phunks has an official special extra no. 0 phunk inscription
