@@ -184,7 +184,7 @@ def download_images
 
     puts "==> downloading image ##{num}..."
 
-    image_url = "https://ordinals.com/content/#{id}"
+     image_url = "https://ordinals.com/content/#{id}"
     ## image_url = "https://litecoin.earlyordies.com/content/#{id}"
 
     res = Webclient.get( image_url )

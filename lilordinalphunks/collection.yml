@@ -1,6 +1,6 @@
 
 slug:       lilordinalphunks
-count:      100
+count:      10     ### up to 100
 format:     24x24
 source:     24x24
 offset:     1
@@ -16,4 +16,9 @@ offset:     1
 ##  try starting at
 ##    https://litecoin.earlyordies.com/inscriptions/14399
 
+
+##
+##
+##  see for inscriptions
+###   https://docs.google.com/spreadsheets/d/1aLiVPAcTSBEGuI_SPYWyo4YP0EnxnO-_aScwI28esCs/edit#gid=0
 
