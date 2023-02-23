@@ -6,6 +6,11 @@ tmp2/
 tmp3/
 
 
+##
+# note:  exclude cache for now too!!
+cache/
+
+
 ###
 # ignore all html dumps for now - why? why not?
 page.txt
@@ -22,4 +27,6 @@ token-i/
 
 ## ignore dot env (.env) variables
 .env
+.env.yml
+.env.yaml
 
