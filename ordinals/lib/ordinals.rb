@@ -7,6 +7,7 @@ require 'optparse'
 
 
 ## our own code
+require_relative 'ordinals/api'
 require_relative 'ordinals/collection'
 
 

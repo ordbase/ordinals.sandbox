@@ -94,3 +94,11 @@ order by ordinal_number desc
 ```
 
 
+## ordinals apis
+
+
+- <https://ordapi.xyz/>
+
+
+
+

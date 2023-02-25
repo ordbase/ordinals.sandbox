@@ -184,39 +184,32 @@ def download_images
 
     puts "==> downloading image ##{num}..."
 
-    ## image_url = "https://ordinals.com/content/#{id}"
-     image_url = "https://litecoin.earlyordies.com/content/#{id}"
 
-    res = Webclient.get( image_url )
+    # client = Ordinals.litecoin
+    client = Ordinals.bitcoin
 
-    if res.status.ok?
-      content_type   = res.content_type
-      content_length = res.content_length
+    content = client.content( id )
 
-      puts "  content_type: #{content_type}, content_length: #{content_length}"
+      puts "  content_type: #{content.type}, content_length: #{content.length}"
 
-      format = if content_type =~ %r{image/jpeg}i
+      format = if content.type =~ %r{image/jpeg}i
                  'jpg'
-               elsif content_type =~ %r{image/png}i
+               elsif content.type =~ %r{image/png}i
                 'png'
-               elsif content_type =~ %r{image/gif}i
+               elsif content.type =~ %r{image/gif}i
                  'gif'
-               elsif content_type =~ %r{image/webp}i
+               elsif content.type =~ %r{image/webp}i
                  'webp'
                else
                  puts "!! ERROR:"
-                 puts " unknown image format content type: >#{content_type}<"
+                 puts " unknown image format content type: >#{content.type}<"
                  exit 1
                end
 
       ## save image - using b(inary) mode
-      write_blob( "#{image_dir}/#{num}.#{format}", res.blob )
+      write_blob( "#{image_dir}/#{num}.#{format}", content.blob )
 
       sleep( 1.0 )  ## sleep (delay_in_s)
-    else
-      puts "!! ERROR - failed to download image; sorry - #{res.status.code} #{res.status.message}"
-      exit 1
-    end
   end
 end
 
