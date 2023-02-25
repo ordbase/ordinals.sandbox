@@ -32,15 +32,16 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordinalphunks.png)
 
 
+**10 (of 100) Lil' Ordinal Phunks (24×24)**
+
+![](i/lilordinalphunks.png)
+
+
+
 
 **100 Bitcoin Punks (24×24)**
 
 ![](i/bitcoinpunks.png)
-
-
-**100 Litecoin Punks (24×24)**
-
-![](i/litecoinpunks.png)
 
 
 
@@ -62,6 +63,17 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 **50 Ordinal Hero Punks (24×24)**
 
 ![](i/ordinalheropunks.png)
+
+
+**100 Litecoin Punks (24×24)**
+
+![](i/litecoinpunks.png)
+
+**98 (of 100) Punks Lite (24×24)**
+
+![](i/punkslite.png)
+
+
 
 
 

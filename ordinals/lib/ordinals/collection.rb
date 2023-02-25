@@ -123,7 +123,7 @@ def make_composite
                when    69 then   [10,  7]
                when    80 then   [10,  8]
                when    88 then   [10,  9]
-               when    99 then   [10,  10]
+               when 98,99 then   [10,  10]
                when   100 then   [10,  10]
                when   101 then   [11,  10]
                when   111 then   [11,  11]
@@ -184,8 +184,8 @@ def download_images
 
     puts "==> downloading image ##{num}..."
 
-     image_url = "https://ordinals.com/content/#{id}"
-    ## image_url = "https://litecoin.earlyordies.com/content/#{id}"
+    ## image_url = "https://ordinals.com/content/#{id}"
+     image_url = "https://litecoin.earlyordies.com/content/#{id}"
 
     res = Webclient.get( image_url )
 
