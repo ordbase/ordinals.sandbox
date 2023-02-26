@@ -32,7 +32,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordinalphunks.png)
 
 
-**10 (of 100) Lil' Ordinal Phunks (24×24)**
+**100 (+1) Lil' Ordinal Phunks (24×24)**
 
 ![](i/lilordinalphunks.png)
 

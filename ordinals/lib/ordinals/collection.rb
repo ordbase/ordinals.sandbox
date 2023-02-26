@@ -185,8 +185,8 @@ def download_images
     puts "==> downloading image ##{num}..."
 
 
-    # client = Ordinals.litecoin
-    client = Ordinals.bitcoin
+    client = Ordinals.litecoin
+    # client = Ordinals.bitcoin
 
     content = client.content( id )
 
