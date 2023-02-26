@@ -5,6 +5,10 @@ require 'pixelart'
 require 'optparse'
 
 
+## add nokogiri for api (html parsing)
+require 'nokogiri'
+
+
 
 ## our own code
 require_relative 'ordinals/api'
@@ -46,7 +50,9 @@ class Tool
     slug             = args[0]
     command          = args[1] || 'image'
 
-    if ['i','img', 'image'].include?( command )
+    if ['m', 'meta'].include?( command )
+      do_download_meta( slug )
+    elsif ['i','img', 'image'].include?( command )
       do_download_images( slug )
     elsif ['conv','convert'].include?( command )
       do_convert_images( slug )
@@ -64,6 +70,12 @@ class Tool
   end
 
 
+  def self.do_download_meta( slug )
+    puts "==> download meta for collection >#{slug}<..."
+
+    col = Collection.new( slug )
+    col.download_meta
+  end
 
   def self.do_download_images( slug )
     puts "==> download images for collection >#{slug}<..."

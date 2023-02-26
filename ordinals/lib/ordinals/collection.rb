@@ -175,6 +175,29 @@ def fix_images   ## todo - find a different names for resaving png images?
                             to:   'png' )
 end
 
+
+def download_meta   ## inscription metadata
+  each_ordinal do |rec, i|
+    id   = rec['id']
+    num  = rec.has_key?('num') ? rec['num'].to_i(10) : i+1
+
+    path = "./inscription//#{id}.json"
+    next if File.exist?( path )
+
+    puts "==> downloading inscription meta #{num} w/ id #{id}..."
+
+    # client = Ordinals.litecoin
+    client = Ordinals.bitcoin
+
+    data = client.inscription( id )
+
+    write_json( path, data )
+
+    sleep( 1.0 )  ## sleep (delay_in_s)
+  end
+end
+
+
 def download_images
   each_ordinal do |rec, i|
     id   = rec['id']
@@ -185,8 +208,8 @@ def download_images
     puts "==> downloading image ##{num}..."
 
 
-    client = Ordinals.litecoin
-    # client = Ordinals.bitcoin
+    # client = Ordinals.litecoin
+    client = Ordinals.bitcoin
 
     content = client.content( id )
 

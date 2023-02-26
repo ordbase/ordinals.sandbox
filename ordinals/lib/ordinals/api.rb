@@ -153,9 +153,49 @@ offset: 0
   def inscription( id )
     src = "#{@base}/inscription/#{id}"
     res = get( src )
-    res
+
+    data = _parse_inscription( res.text )
+    data
   end
 
+
+  def _parse_inscription( html )
+    doc = Nokogiri::HTML( html )
+
+    items = []
+
+    title = doc.css( 'head title' )
+    items << ['title', title.text]
+
+
+    dls = doc.css( 'body dl' )
+    dls[0].css( 'dt,dd' ).each do |el|
+       if el.name == 'dt'
+            items << [el.text]
+       elsif el.name == 'dd'
+            items[-1] << el.text
+       else
+         puts "!! ERROR - unexpected tag; expected dd|dl; got: #{el.name}"
+         exit 1
+       end
+    end
+    items
+
+    ## convert to hash
+    ##   and check for duplicate
+    data = {}
+    items.each do |k,v|
+        k = k.strip
+        v = v.strip
+        if data.has_key?( k )
+           puts "!! ERROR - duplicate key >#{k}< in:"
+           pp items
+           exit 1
+        end
+        data[ k ] = v
+    end
+    data
+  end
 
 
   def get( src )

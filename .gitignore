@@ -9,6 +9,7 @@ tmp3/
 ##
 # note:  exclude cache for now too!!
 cache/
+inscription/
 
 
 ###
