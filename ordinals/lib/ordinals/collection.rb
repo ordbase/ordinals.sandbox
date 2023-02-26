@@ -181,7 +181,7 @@ def download_meta   ## inscription metadata
     id   = rec['id']
     num  = rec.has_key?('num') ? rec['num'].to_i(10) : i+1
 
-    path = "./inscription//#{id}.json"
+    path = "../ordinals.cache/inscription//#{id}.json"
     next if File.exist?( path )
 
     puts "==> downloading inscription meta #{num} w/ id #{id}..."
