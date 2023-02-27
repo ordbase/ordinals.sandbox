@@ -23,6 +23,15 @@ the [**ordinals package (with the ordbase command-line tool) »**](ordinals)
 
 ![](i/ordinalpunks.png)
 
+- from #407 to #642 (min. to max.)
+     - <1000 => 100
+- format(s)
+     - image/png => 100
+- day(s)
+     - 2023-01-31 => 27
+     - 2023-02-01 => 73
+
+
 
 New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno 2023) Notes - 24×24 Pixel Art on the (Bitcoin) Blockchain »**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/awesome-ordinalpunks)
 
@@ -31,17 +40,49 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 ![](i/ordinalphunks.png)
 
+- from #74010 to #139687 (min. to max.)
+     - <100000 => 4
+     - <1000000 => 97
+- format(s)
+     - image/png => 101
+- day(s)
+     - 2023-02-13 => 3
+     - 2023-02-14 => 1
+     - 2023-02-15 => 1
+     - 2023-02-16 => 3
+     - 2023-02-17 => 12
+     - 2023-02-18 => 81
 
-**100 (+1) Lil' Ordinal Phunks (24×24)**
+
+
+**100 (+1) Lil' Ordinal Phunks (24×24)**  (on Litecoin)
 
 ![](i/lilordinalphunks.png)
 
 
+- from #14343 to #42901 (min. to max.)
+     - <100000 => 101
+- format(s)
+     - image/png => 101
+- day(s)
+     - 2023-02-22 => 10
+     - 2023-02-25 => 17
+     - 2023-02-26 => 74
 
 
 **100 Bitcoin Punks (24×24)**
 
 ![](i/bitcoinpunks.png)
+
+- from #1156 to #5535 (min. to max.)
+     - <10000 => 100
+- format(s)
+     - image/jpeg => 100
+- day(s)
+     - 2023-02-03 => 42
+     - 2023-02-04 => 11
+     - 2023-02-05 => 32
+     - 2023-02-06 => 15
 
 
 
@@ -65,9 +106,19 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordinalheropunks.png)
 
 
-**100 Litecoin Punks (24×24)**
+
+**100 Litecoin Punks (24×24)**    (on Litecoin)
 
 ![](i/litecoinpunks.png)
+
+- from #642 to #834 (min. to max.)
+     - <1000 => 100
+- format(s)
+     - image/png => 100
+- day(s)
+     - 2023-02-21 => 100
+
+
 
 **98 (of 100) Punks Lite (24×24)**
 

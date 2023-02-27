@@ -113,6 +113,8 @@ def pixelate
 end
 
 
+
+
 def make_composite
   cols, rows = case count
                when    10 then   [5,   2]
@@ -181,20 +183,36 @@ def download_meta   ## inscription metadata
     id   = rec['id']
     num  = rec.has_key?('num') ? rec['num'].to_i(10) : i+1
 
-    path = "../ordinals.cache/inscription//#{id}.json"
+    chain = Ordinals.config.chain
+    path = "../ordinals.cache/#{chain}/#{id}.json"
     next if File.exist?( path )
 
-    puts "==> downloading inscription meta #{num} w/ id #{id}..."
+    puts "==> downloading #{chain} inscription meta #{num} w/ id #{id}..."
 
-    # client = Ordinals.litecoin
-    client = Ordinals.bitcoin
-
-    data = client.inscription( id )
+    data = Ordinals.client.inscription( id )
 
     write_json( path, data )
 
     sleep( 1.0 )  ## sleep (delay_in_s)
   end
+end
+
+def dump_stats
+  stats = InscriptionStats.new
+
+  each_ordinal do |rec, i|
+    id   = rec['id']
+
+    chain = Ordinals.config.chain
+    path = "../ordinals.cache/#{chain}/#{id}.json"
+
+    data = read_json( path )
+    stats.update( data )
+  end
+
+  pp stats.data
+  puts
+  puts stats.format
 end
 
 
@@ -208,10 +226,7 @@ def download_images
     puts "==> downloading image ##{num}..."
 
 
-    # client = Ordinals.litecoin
-    client = Ordinals.bitcoin
-
-    content = client.content( id )
+    content = Ordinals.client.content( id )
 
       puts "  content_type: #{content.type}, content_length: #{content.length}"
 

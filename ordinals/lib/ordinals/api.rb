@@ -2,21 +2,20 @@
 
 module Ordinals
 
-def self.litecoin
-  @litecoin ||= Api.new( 'https://litecoin.earlyordies.com' )
-  @litecoin
-end
 
-def self.bitcoin
-  @bitcoin ||= Api.new( 'https://ordinals.com' )
-  @bitcoin
-end
+class Api   ## change/rename Api to Client - why? why not?
+  def self.litecoin
+    @litecoin ||= new( 'https://litecoin.earlyordies.com' )
+    @litecoin
+  end
 
-## todo:  add ltc and btc alias - why? why not?
+  def self.bitcoin
+    @bitcoin ||= new( 'https://ordinals.com' )
+    @bitcoin
+  end
+  ## todo:  add ltc and btc alias - why? why not?
 
 
-
-class Api
   def initialize( base )
     @base=base
   end

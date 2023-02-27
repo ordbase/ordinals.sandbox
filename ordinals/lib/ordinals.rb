@@ -10,109 +10,76 @@ require 'nokogiri'
 
 
 
-## our own code
-require_relative 'ordinals/api'
-require_relative 'ordinals/collection'
-
 
 
 module Ordinals
-class Tool
+  class Configuration
 
-  def self.main( args=ARGV )
-    puts "==> welcome to ordinals/ordbase tool with args:"
-    pp args
-
-    options = {
-              }
-
-    parser = OptionParser.new do |opts|
-
-      opts.on("-h", "--help", "Prints this help") do
-        puts opts
-        exit
-      end
+    #######################
+    ## accessors
+    def chain=(value)
+        if value.is_a?( String ) || value.is_a?( Symbol )
+            case value.downcase.to_s
+            when 'btc', 'bitcoin', 'bitcon'
+               @chain  = 'btc'
+               @client = Ordinals::Api.bitcoin
+            when 'ltc', 'litecoin', 'litecon'
+               @chain = 'ltc'
+               @client = Ordinals::Api.litecoin
+            else
+              raise ArgumentError, "unknown chain - expected btc | ltc; got #{value}"
+            end
+        else
+            raise ArgumentError, "only string or symbol supported for now; sorry - got: #{value.inspect} : #{value.class.name}"
+        end
     end
 
-    parser.parse!( args )
-    puts "options:"
-    pp options
-
-    puts "args:"
-    pp args
-
-    if args.size < 1
-      puts "!! ERROR - no collection found - use <collection> <command>..."
-      puts ""
-      exit
+    def chain
+      ## note - default to btc/bitcon if not set
+      self.chain = 'btc'   unless defined?( @chain )
+      @chain
     end
 
-    slug             = args[0]
-    command          = args[1] || 'image'
-
-    if ['m', 'meta'].include?( command )
-      do_download_meta( slug )
-    elsif ['i','img', 'image'].include?( command )
-      do_download_images( slug )
-    elsif ['conv','convert'].include?( command )
-      do_convert_images( slug )
-    elsif ['fix'].include?( command )
-      do_fix_images( slug )
-    elsif ['px','pix', 'pixelate' ].include?( command )
-      do_pixelate( slug )
-    elsif ['comp','composite' ].include?( command )
-      do_make_composite( slug )
-    else
-      puts "!! ERROR - unknown command >#{command}<, sorry"
+    ## note: read-only for now - why? why not?
+    def client
+      ## note - default to btc/bitcon if not set
+      self.chain = 'btc'   unless defined?( @client )
+      @client
     end
+  end # class Configuration
 
-    puts "bye"
+
+  ## lets you use
+  ##   Ordinals.configure do |config|
+  ##      config.chain = :btc
+  ##   end
+  def self.configure() yield( config ); end
+  def self.config()    @config ||= Configuration.new;  end
+
+  ##  add some convenience shortcut helpers (no config. required) - why? why not?
+  def self.client()   config.client; end
+  def self.chain()    config.chain; end
+
+  def self.btc?()     config.chain == 'btc'; end
+  def self.ltc?()     config.chain == 'ltc'; end
+  class << self
+    alias_method :bitcoin?, :btc?
+    alias_method :bitcon?,  :btc?
+
+    alias_method :litecoin?, :ltc?
+    alias_method :litecon?,  :ltc?
   end
+end  # module Ordinals
 
 
-  def self.do_download_meta( slug )
-    puts "==> download meta for collection >#{slug}<..."
-
-    col = Collection.new( slug )
-    col.download_meta
-  end
-
-  def self.do_download_images( slug )
-    puts "==> download images for collection >#{slug}<..."
-
-    col = Collection.new( slug )
-    col.download_images
-  end
 
 
-  def self.do_convert_images( slug )
-    puts "==> convert images for collection >#{slug}<..."
+## our own code
+require_relative 'ordinals/api'
+require_relative 'ordinals/collection'
+require_relative 'ordinals/stats'
 
-    col = Collection.new( slug )
-    col.convert_images
-  end
-
-  def self.do_fix_images( slug )
-    puts "==> fix images for collection >#{slug}<..."
-
-    col = Collection.new( slug )
-    col.fix_images
-  end
+require_relative 'ordinals/tool'
 
 
-  def self.do_pixelate( slug )
-    puts "==> downsample / pixelate images for collection >#{slug}<..."
 
-    col = Collection.new( slug )
-    col.pixelate
-  end
-
-  def self.do_make_composite( slug )
-    puts "==> make composite for collection >#{slug}<..."
-
-    col = Collection.new( slug )
-    col.make_composite
-  end
-
-end  # class Tool
-end   # module Ordinals
