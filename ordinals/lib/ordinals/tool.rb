@@ -9,6 +9,10 @@ class Tool
               }
 
     parser = OptionParser.new do |opts|
+      opts.on( "--doge", "--dogecoin", "Use Dogecoin / DOGE") do
+        ## switch to doge
+        Ordinals.config.chain = :doge
+      end
       opts.on( "--ltc", "--litecoin", "Use Litecoin / LTC") do
           ## switch to ltc
           Ordinals.config.chain = :ltc

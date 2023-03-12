@@ -15,9 +15,17 @@ class Api   ## change/rename Api to Client - why? why not?
   end
   ## todo:  add ltc and btc alias - why? why not?
 
+  def self.dogecoin
+    ## note: "doginals" call inscriptions
+    ##                     shibescriptions
+    @dogecoin ||= new( 'https://doginals.com', inscription: 'shibescription' )
+    @dogecoin
+  end
 
-  def initialize( base )
-    @base=base
+
+  def initialize( base, inscription: 'inscription' )
+    @base        = base
+    @inscription = inscription
   end
 
 
@@ -150,7 +158,7 @@ offset: 0
 =end
 
   def inscription( id )
-    src = "#{@base}/inscription/#{id}"
+    src = "#{@base}/#{@inscription}/#{id}"
     res = get( src )
 
     data = _parse_inscription( res.text )

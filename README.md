@@ -185,6 +185,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/1337ordinals.png)
 
 
+**100 (+1) Ordoggies (32×32)**   (on Dogecoin)
+
+![](i/ordoggies.png)
+
+
 
 **100 Ordinal Penguins (35×35)**
 

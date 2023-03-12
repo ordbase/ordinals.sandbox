@@ -26,8 +26,11 @@ module Ordinals
             when 'ltc', 'litecoin', 'litecon'
                @chain = 'ltc'
                @client = Ordinals::Api.litecoin
+            when 'doge', 'dogecoin', 'dogecon'
+               @chain = 'doge'
+               @client = Ordinals::Api.dogecoin
             else
-              raise ArgumentError, "unknown chain - expected btc | ltc; got #{value}"
+              raise ArgumentError, "unknown chain - expected btc | ltc | doge; got #{value}"
             end
         else
             raise ArgumentError, "only string or symbol supported for now; sorry - got: #{value.inspect} : #{value.class.name}"
@@ -62,12 +65,16 @@ module Ordinals
 
   def self.btc?()     config.chain == 'btc'; end
   def self.ltc?()     config.chain == 'ltc'; end
+  def self.doge?()    config.chain == 'doge'; end
   class << self
     alias_method :bitcoin?, :btc?
     alias_method :bitcon?,  :btc?
 
     alias_method :litecoin?, :ltc?
     alias_method :litecon?,  :ltc?
+
+    alias_method :dogecoin?, :doge?
+    alias_method :dogecon?,  :doge?
   end
 end  # module Ordinals
 
