@@ -151,6 +151,9 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordinalminidoges.png)
 
 
+**69 Doge Punks (28×28)**
+
+![](i/dogepunks.png)
 
 
 **111 Yeti Bit Club (28×28)**
@@ -223,6 +226,12 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/bitcoinbears.png)
 
 
+
+**10 Shadow Hats (50×50)**
+
+![](i/shadowhats.png)
+
+
 **100 Ordi(nal) Doodles (50×50)**
 
 ![](i/ordidoodles.png)
@@ -231,6 +240,12 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 **100 Ordinal Waifus (50×50)**
 
 ![](i/ordinalwaifus.png)
+
+**100 Ordinal Primates (50×50)**
+
+![](i/ordinalprimates.png)
+
+
 
 
 **100 Ordinal Minis (50×50)**

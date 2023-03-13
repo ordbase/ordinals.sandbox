@@ -221,7 +221,11 @@ def download_images
     id   = rec['id']
     num  = rec.has_key?('num') ? rec['num'].to_i(10) : i+1
 
-    next if File.exist?( "#{image_dir}/#{num}.png" )
+    ##  note: add gif too (for check) - add more formats - why? why not?
+    next if File.exist?( "#{image_dir}/#{num}.png" ) ||
+            File.exist?( "#{image_dir}/#{num}.gif" ) ||
+            File.exist?( "#{image_dir}/#{num}.jpg" )
+
 
     puts "==> downloading image ##{num}..."
 

@@ -1,6 +1,37 @@
 # Notes
 
+## Update Image Downloads
 
+- cyberordinals (50)
+- bitcoinapes  (100)
+- monkeykingdom  (2222)
+
+
+**More**
+
+- 100 Ordinal Kitties
+  - https://ordinalswallet.com/collection/ordinal-kitties
+- 10 000 Extraordial Punks
+  - https://ordinalswallet.com/collection/extraordinal-punks
+  - https://twitter.com/ordinal_extra
+  - https://www.extraordinalpunks.com
+
+- ?? Pixel Pepes
+  - https://ordinalswallet.com/collection/pixel-pepes
+  - https://ordinalsdirectory.com/pixel-pepes
+
+- 1111 Ordinal Bears
+  - https://ordinalsdirectory.com/ordinal-bears
+
+
+## Error Notes
+
+HTTP Error 522  - Connection Timed Out
+
+
+
+
+## More
 
 Try Ordinals HTTP API
 - see <https://ordapi.xyz/>
