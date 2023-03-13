@@ -1,6 +1,6 @@
 # ordinals
 
-ordinals gem - "right-clicker" (off-chain) ordinals (pixel art) machinery & helpers for Bitcoin & co.
+ordinals gem - "right-clicker" (off-chain) ordinals (pixel art) machinery & helpers for Bitcoin, Litcoin, Dogecoin & co.
 
 
 * home  :: [github.com/pixelartexchange/ordinals.sandbox](https://github.com/pixelartexchange/ordinals.sandbox)
@@ -166,6 +166,6 @@ Use it as you please with no restrictions whatsoever.
 
 ## Questions? Comments?
 
+Post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
 
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 

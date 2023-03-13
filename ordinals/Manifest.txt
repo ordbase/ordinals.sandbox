@@ -4,4 +4,7 @@ README.md
 Rakefile
 bin/ordbase
 lib/ordinals.rb
+lib/ordinals/api.rb
 lib/ordinals/collection.rb
+lib/ordinals/stats.rb
+lib/ordinals/tool.rb
