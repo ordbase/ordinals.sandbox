@@ -115,8 +115,11 @@ end
 
 
 
-def make_composite
-  cols, rows = case count
+def make_composite( limit: nil )
+
+  composite_count =  limit ? limit : count
+
+  cols, rows = case composite_count
                when    10 then   [5,   2]
                when    12 then   [4,   3]
                when    15 then   [5,   3]
@@ -132,7 +135,7 @@ def make_composite
                when   130 then   [10,  13]
                when   512 then   [20,  26]
                else
-                   raise ArgumentError, "sorry - unknown composite count #{count} for now"
+                   raise ArgumentError, "sorry - unknown composite count #{composite_count} for now"
                end
 
   composite = ImageComposite.new( cols, rows,
@@ -140,10 +143,15 @@ def make_composite
                                   height: @height )
 
 
+  image_count = 0
   each_image do |img, num|
     puts "==> #{num}"
     composite << img
+
+    image_count += 1
+    break   if image_count >= composite_count
   end
+
 
    composite.save( "./#{@slug}/tmp/#{@slug}.png" )
 end

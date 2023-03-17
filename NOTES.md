@@ -9,19 +9,22 @@
 
 **More**
 
-- 100 Ordinal Kitties
-  - https://ordinalswallet.com/collection/ordinal-kitties
 - 10 000 Extraordial Punks
   - https://ordinalswallet.com/collection/extraordinal-punks
   - https://twitter.com/ordinal_extra
   - https://www.extraordinalpunks.com
+- 1111 Ordinal Bears
+  - https://ordinalsdirectory.com/ordinal-bears
 
+
+
+- 100 Ordinal Kitties
+  - https://ordinalswallet.com/collection/ordinal-kitties
 - ?? Pixel Pepes
   - https://ordinalswallet.com/collection/pixel-pepes
   - https://ordinalsdirectory.com/pixel-pepes
 
-- 1111 Ordinal Bears
-  - https://ordinalsdirectory.com/ordinal-bears
+
 
 
 ## Error Notes

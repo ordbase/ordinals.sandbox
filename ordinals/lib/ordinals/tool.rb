@@ -22,6 +22,11 @@ class Tool
           Ordinals.config.chain = :btc
       end
 
+      opts.on("--limit NUM", Integer,
+             "Limit collection (default: ∞)") do |num|
+         options[ :limit]  = num
+      end
+
       opts.on("-h", "--help", "Prints this help") do
         puts opts
         exit
@@ -57,7 +62,11 @@ class Tool
     elsif ['px','pix', 'pixelate' ].include?( command )
       do_pixelate( slug )
     elsif ['comp','composite' ].include?( command )
-      do_make_composite( slug )
+      if options.has_key?( :limit )
+        do_make_composite( slug, limit: options[:limit] )
+      else
+        do_make_composite( slug )
+      end
     else
       puts "!! ERROR - unknown command >#{command}<, sorry"
     end
@@ -110,11 +119,11 @@ class Tool
     col.pixelate
   end
 
-  def self.do_make_composite( slug )
+  def self.do_make_composite( slug, limit: nil )
     puts "==> make composite for collection >#{slug}<..."
 
     col = Collection.new( slug )
-    col.make_composite
+    col.make_composite( limit: limit )
   end
 
 end  # class Tool

@@ -41,8 +41,10 @@ require 'cocos'
 # name = 'monkeykingdom'
 # name = 'ordinalprimates'
 # name = 'bitcoinapes'
-name = 'cyberordinals'
-
+# name = 'cyberordinals'
+# name = 'ordinalkitties'
+# name = 'pixelpepes'
+name = 'hiddensociety'
 
 txt = read_text( "./#{name}/page.txt" )
 

@@ -55,7 +55,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 
 
-**100 (+1) Lil' Ordinal Phunks (24×24)**  (on Litecoin)
+**100 (+1) Lil' Ordinal Phunks (24×24)**   _(on Litecoin)_
 
 ![](i/lilordinalphunks.png)
 
@@ -107,7 +107,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 
 
-**100 Litecoin Punks (24×24)**    (on Litecoin)
+**100 Litecoin Punks (24×24)**    _(on Litecoin)_
 
 ![](i/litecoinpunks.png)
 
@@ -142,7 +142,9 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/engraveddragons.png)
 
 
+***111 of (???) Pixel Pepes (24×24)**
 
+![](i/pixelpepes.png)
 
 
 
@@ -183,14 +185,22 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordinalgoros.png)
 
 
-**69 1337 (Skull) Ordinals (32×32)**
+**69 (Skull) 1337 Ordinals (32×32)**
 
 ![](i/1337ordinals.png)
 
 
-**100 (+1) Ordoggies (32×32)**   (on Dogecoin)
+**111 Hidden Society (32×32)**
+
+![](i/hiddensociety.png)
+
+
+
+**100 (+1) Ordoggies (32×32)**    _(on Dogecoin)_
 
 ![](i/ordoggies.png)
+
+
 
 
 
@@ -218,6 +228,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 **100 Ordinal Birds (42×42)**
 
 ![](i/ordinalbirds.png)
+
+
+**100 Ordinal Kitties (45×45)**
+
+![](i/ordinalkitties.png)
 
 
 
