@@ -13,7 +13,8 @@ Yes, you can!
 Start your own
 sandbox (& cache) or "right-clicker" ordinal backup / archive / gallery.
 For a step-by-step guide and more see
-the [**ordinals package (with the ordbase command-line tool) »**](ordinals)
+the [**ordbase package (with the ordbase command-line tool) »**](https://github.com/pixelartexchange/artbase/tree/master/ordbase)
+
 
 
 

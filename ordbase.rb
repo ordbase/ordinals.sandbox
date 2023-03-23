@@ -1,8 +1,9 @@
 $LOAD_PATH.unshift( '../pixelart/pixelart/lib' )
-$LOAD_PATH.unshift( './ordinals/lib' )
+$LOAD_PATH.unshift( '../artbase/ordinals/lib' )
+$LOAD_PATH.unshift( '../artbase/ordbase/lib' )
 
 
-require 'ordinals'
+require 'ordbase'
 
 
 
