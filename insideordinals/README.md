@@ -12,7 +12,12 @@ Flashback
 
 
 
-About two years ago I wrote:
+
+
+## About Two Years Ago
+
+
+I wrote:
 
 > Q: Dear sir, how do I get rich in ~bits-coin~ punks?
 >
@@ -26,7 +31,9 @@ About two years ago I wrote:
 
 
 
-Fast forward to February 2023  - What's Ordinal Theory?
+
+
+##  Fast Forward to February 2023  - What's Ordinal Theory?
 
 Let's welcome 100 Ordinal Punks (24×24)
 "inscribed" into the Bitcoin (BTC) Blockchain!
@@ -36,11 +43,23 @@ Let's welcome 100 Ordinal Punks (24×24)
 
 - ~$25 Inscription Fee/Punk
 - ~$250 Price/Punk (0.01 BTC) To Buy
-- (Minimum) Floor Price A Week Later - +$100 000
+
+
+Disclaimer / Disclosure:   I am not affiliatd with Ordinal Punks. HODLing 0 Punks.
+
+
+
+**Two Weeks Later**
+
+(Minimum) Floor Price A Week Later - +$100 000
 
 Three out of five "Top Sellers" ever are Ordinal Punks.
-Highest is Ordinal Punk No.  w/ 11.5 BTC (~US$ 270 000) on February 10th, 2023
-and Ordinal Punk No.  w/ 9.5 BTC (~US$ 220 000) on February 8th, 2023.
+Highest is
+![](../ordinalpunks/24x24/41.png)
+Ordinal Punk No. 41  w/ 11.5 BTC (~US$ 270 000) on February 10th, 2023
+and
+![](../ordinalpunks/24x24/94.png)
+Ordinal Punk No. 94 w/ 9.5 BTC (~US$ 220 000) on February 8th, 2023.
 
 
 ![](i/topordinalsales.png)
@@ -49,18 +68,18 @@ and Ordinal Punk No.  w/ 9.5 BTC (~US$ 220 000) on February 8th, 2023.
 
 
 
-So what? Do I care?
+##  Ordinal Punk Pixel Heads on Bitcoin!? So what? Do I care?
 
 The official blurb on the Ordinal Punks
 website - [ordinalpunks.com](https://ordinalpunks.com/) - reads:
 
+![](i/ordinalpunks-website.png)
 
->  [...]
->
+
+<!--
 >  Ordinal Punks are using [**an open source algorithm**](https://github.com/cryptopunksnotdead) to generate
 >  the profile picture (pfp) which is 192x192 pixels.
->
->  [...]
+-->
 
 
 Guess what?
@@ -69,11 +88,17 @@ Yes, the "open source algorithm"
 is the (crypto) punk's not dead punk text-to-image generator.
 
 
-Disclaimer / Disclosure:   I am not affiliatd with Ordinal Punks. HODLing 0 Punks.
 
 
 
-Flashback  - My Humble Bitcoin History
+
+
+## Flashback  - My Humble Bitcoin History (Started in 2017)
+
+Disclaimer / Disclosure:  I am no-coiner (and "right-clicker").
+HODLing 0 bitcoin / litecoin / dogecoin /etc.
+
+
 
 
 Publishing Free Booklets on Bits & Block Press
@@ -97,9 +122,11 @@ Can you find a theme?
 
 
 
-The Bitcoin "Narrative" or "Are You Orange Pilled Yet?"
-or the (big) lies the fraudsters tell you...   (before Ordinal Theory, February 2023)
 
+
+## The Bitcoin "Narrative" or "Are You Orange Pilled Yet?" (before Ordinal Theory, February 2023)
+
+The (big) lies the fraudsters tell / told you...
 
 - Bitcoin is the new gold
 - Bitcoin is the new gold standard (and the best store of value and world reserve)
@@ -118,10 +145,9 @@ or the (big) lies the fraudsters tell you...   (before Ordinal Theory, February 
 
 
 
+## The new Bitcoin "narrative" (starting February 2023):
+
 Enter Ordinal Theory and Bitcoin Inscriptions
-
-
-The new Bitcoin "narrative" (starting February 2023):
 
 
 Yeah, we found a use for Bitcon!  It's a database!
@@ -129,28 +155,41 @@ Yeah, we found a use for Bitcon!  It's a database!
 "Ulta-sound"  ~~money~~  .jpegs!
 Yes, monkeys, punks, goblins, and more!
 
-"inscribed", that is, written into the bitcoin blockchain, that is, open (shared) public database.
+"inscribed", that is, written into the bitcoin blockchain, that is, an open (shared) public database.
 
 
 Limitations:   4 MB max. (per block)
 and - of course - you have to pay for every byte  (or vbyte) stored
-in bitcoin.  Funny money for funny monkeys!
+in bitcoins (or satoshis).
+Funny money for funny monkeys!
+
+
+Aside - What's a Satoshi?
+
+- 1 bitcoin is 100 million satoshis (1 = 100 000 000 = 10^8)
+- 1 euro or 1 dollar is 100 cents (1 = 100 = 10^2)
 
 
 
-> Of the 466 gigabytes of data that makes up the bitcoin blockchain,
+Aside - xkcd Cartoon No. 512 - December 3rd, 2008 (!)
+
+![](i/xkcd-alternatecurrency.png)
+
+<!--
+ source: https://xkcd.com/512/
+-->
+
+
+
+> Breaking news  -  Of the 466 GB of data that makes up
+> the bitcoin blockchain,
 > over 1GB is already images of monkeys.
 >
 > -- [Ordinals Fees Spike as Bored Ape Yacht Club Clones Bloom on Bitcoin](https://decrypt.co/124452/bitcoin-ordinals-inscriptions-fees-rise-rewards-bored-ape-dupes), Decrypt, March 2023
 
 
-![](i/xkcd-alternatecurrency.png)
 
-(xkcd no. 512 - December 3rd, 2008)
 
-<!--
- source: https://xkcd.com/512/
--->
 
 
 
@@ -164,9 +203,10 @@ Okkie - What took so long!?
 
 Bitcoin Maxis (and Small Blockers) won the "crypto (bitcon) wars":
 
-Early "investors"  in the pyramid
-HODL and enforce ever more limits / restrictions
-on transactions and "inscriptions" -
+Early "investors"  in the pyramid scheme
+HODL! HODL! HODL!
+and enforce ever more limits / restrictions
+on transactions and "inscriptions" =>
 make bitcoin "super-rare" collectibles
 and "ultra-sound" money / gold
 
@@ -178,10 +218,17 @@ e.g.
 
 
 
+## Who is Casey Rodarmor?
+
 Enter Casey Rodarmor (cyper punk  & coder)
+
 
 Note: Yes - real "doxxed" person and name living in the United States;
 not anonymous like Satoshi Nakamoto
+
+
+![](i/caseyrodarmor-github.png)
+
 
 See
 - [github.com/casey](https://github.com/casey)
@@ -191,28 +238,26 @@ See
 
 > ord is written in rust and can be built from source.
 >
-> ord is an index, block explorer, and command-line wallet.
+> ord is an index, block explorer, and command-line [bitcoin] wallet.
 > It is experimental software with no warranty.
 >
 > -- [github.com/casey/ord](https://github.com/casey/ord)
 
 
 
+
+##  Ordinal Theory Q & A with Casey Rodarmor
+
 From the Official [Ordinal Theory F.A.Q.](https://docs.ordinals.com/faq.html) written by Casey Rodarmor
 
 **Q: What is ordinal theory?**
 
-A: Ordinal theory is is a protocol for assigning serial numbers to satoshis, the smallest subdivision of a bitcoin, and tracking those satoshis as they are spent by transactions.
-
-
-Aside - What's a Satoshi?
-
-- 1 bitcoin is 100 million satoshis (1 = 100 000 000 = 10^8)
-- 1 euro or 1 dollar is 100 cents (1 = 100 = 10^2)
+A: Ordinal theory is a protocol for assigning serial numbers to satoshis, the smallest subdivision of a bitcoin, and tracking those satoshis as they are spent by transactions.
 
 
 
-**Q: Does ordinal theory require a side chain, a separate token, or changes to Bitcoin?**
+
+**Q: Does ordinal theory require a side chain, a separate token, or changes to bitcoin?**
 
 A: Nope! Ordinal theory works right now, without a side chain, and the only token needed is bitcoin itself.
 
@@ -241,10 +286,7 @@ After:
 
 
 
-
-
-First Inscription (No. 0)
-by Casey Rodarmor
+## First Inscription (No. 0) by Casey Rodarmor
 
 ![](i/inscription0.png)
 
@@ -259,8 +301,7 @@ See [inscription no. 0](https://ordinals.com/inscription/6fb976ab49dcec017f1e201
 
 
 
-Second Inscription (No.1)
-by ????
+## Second Inscription (No. 1) by ????
 
 ![](i/inscription1.png)
 
@@ -286,6 +327,10 @@ By the way - on offer for sale - 100 BTC (~US$ 2.5 Million).
 
 
 
+
+
+
+## Q: Wen one million [bitcoin] inscriptions?
 
 It's (still) the early days ....
 
@@ -336,6 +381,8 @@ The stat(istic)s so far:
 
 
 
+### Bitcoin Ordinals Analysis / Statistics
+
 See [Bitcoin Ordinals Analysis](https://dune.com/dgtl_assets/bitcoin-ordinals-analysis)
 
 
@@ -362,8 +409,10 @@ See [Bitcoin Ordinals Analysis](https://dune.com/dgtl_assets/bitcoin-ordinals-an
 
 
 
-See the latest inscriptions live (weeb feed for subscriptions
-available too)
+## Latest and (Very) First Hundred Inscriptions
+
+See the latest inscriptions live (web feed for subscriptions
+available)
 
 - [ordinals.com/inscriptions](https://ordinals.com/inscriptions)
 
@@ -373,6 +422,9 @@ See the (very) first hundred inscriptions (add /99)
 - [ordinals.com/inscriptions/99](https://ordinals.com/inscriptions/99)
 
 
+
+
+## Ordinals (Pixel Art) Sandbox (& Cache)
 
 I track
 and "right-click & save" pixel art collections.
@@ -405,6 +457,10 @@ See [Ordinals (Pixel Art) Sandbox (& Cache)](https://github.com/pixelartexchange
 
 
 
+
+## Remember Litecoin (LTC)?
+
+
 Trivia Quiz:
 
 Litecoin (LTC) Blockchain Started - Wen?
@@ -419,18 +475,23 @@ Trivia Quiz:
 
 Litecoin (LTC) Ordinal Inscriptions Started - Wen?
 
-- [A] Jan 19th, 2023
-- [B] Jan 24th, 2023
-- [C] Jan 31st, 2023
-- [D] Feb 4th, 2023
+- [A] Jan 14th, 2023
+- [B] Jan 31st, 2023
+- [C] Feb 19th, 2023
+- [D] Mar 4th, 2023
 
 
 
-First Inscription No. 0
+First [Inscription No. 0](https://ordinalslite.com/inscription/71e0f6dc87a473aa69787fff8e09e5eddfdca96e587928a5b1a25c0ae16dc0eei0):
+
+- timestamp: February 19th, 2023 20:26:43 UTC
+- genesis (block) height: 2425370
+- content length: 57237 bytes
+- content type: application/pdf
 
 
-See the latest inscriptions live (weeb feed for subscriptions
-available too)
+See the latest inscriptions live (web feed for subscriptions
+available)
 
 - [ordinalslite.com/inscriptions](https://ordinalslite.com/inscriptions)
 
@@ -446,7 +507,7 @@ the merged blocks are kind-of-buggy (male/female blocks mixed-up).
 
 
 
-Doginals?  Shibescriptions?  Much wow - Such doge!
+## Doginals?  Shibescriptions?  Much wow - Such doge!
 
 
 Trivia Quiz:
@@ -459,8 +520,8 @@ Dogecoin (Doge) Ordinal Shibescriptions Started - Wen?
 - [D] March 4th, 2023
 
 
-See the latest inscriptions / shibescriptions live (weeb feed for subscriptions
-available too)
+See the latest inscriptions / shibescriptions live (web feed for subscriptions
+available)
 
 - [doginals.com/shibescriptions](https://doginals.com/shibescriptions)
 
@@ -469,7 +530,7 @@ available too)
 
 
 
-What more? What's next?
+## What more? What's next?
 
 
 New protocols built on inscriptions
@@ -509,9 +570,14 @@ to make fungible meme coins. At this point, nothing surprises me.
 
 
 
-Ordinal Theory - Yes,You Can - Start Your Own Numbering "Theory" - Genesis Reloaded
+
+## Ordinal Theory Reloaded - Yes, You Can - Start Your Own Numbering "Theory"
+
 
 Let's Welcome Ordinals **Height**
+
+[Inscription No. 0](https://www.ordinalsheight.com/inscription/41c4c2afe3e6c9fb6a7d828bdff87d5976416b4a7a360a3a88cc61adb56eac12i0)
+- timestamp: February 28th, 2023 19:48:53 UTC
 
 see [ordinalsheight.com](https://www.ordinalsheight.com)
 
@@ -520,19 +586,17 @@ see [ordinalsheight.com](https://www.ordinalsheight.com)
 [ordinalsheight.com/inscriptions/99](https://www.ordinalsheight.com/inscriptions/99)
 
 
-[Inscription No. 0](https://www.ordinalsheight.com/inscription/41c4c2afe3e6c9fb6a7d828bdff87d5976416b4a7a360a3a88cc61adb56eac12i0)
-- timestamp: February 28th, 2023 19:48:53 UTC
 
 
 
+## As they say - It's the early days ...
 
 
-As they say - it's the early days ....
-
-
-- Ordinals on Bitcoin (BTC), see [ordinals.com](https://ordinals.com)   -   and counting
-- Ordinals on Litecoin (LTC), see [ordinalslite.com](https://ordinalslite.com)    -     and counting
+- Ordinals on Bitcoin (BTC), see [ordinals.com](https://ordinals.com)   -  580 861   and counting
+- Ordinals on Litecoin (LTC), see [ordinalslite.com](https://ordinalslite.com)    -   219 546  and counting
 - Ordinals on Dogecoin (DOGE), see [doginals.com](https://doginals.com)    - 98 513   and counting
+
+
 
 
 
@@ -559,7 +623,9 @@ the transaction is add the blockchain via a new block.
 
 
 
-What I am up-to?
+
+## What I am up-to?
+
 My (little) ordinals open source libraries, scripts & tools:
 
 - [d.i.y. ordinal punks wizard / designer](https://cryptopunksnotdead.github.io/punks.js/ordinalpunks/) (js)
