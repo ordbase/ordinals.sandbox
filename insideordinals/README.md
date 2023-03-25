@@ -198,10 +198,12 @@ Okkie - What took so long!?
 - Bitcon Maxis!
 - Small Blockers vs Big Blockers
 - Bitcoin Gold vs Bitcoin Cash
+- Burn Planet Earth vs Change the Code, Not the Climate
 - etc.
 
 
-Bitcoin Maxis (and Small Blockers) won the "crypto (bitcon) wars":
+
+Bitcoin "Small Blocker" Maxis won the "crypto (bitcon) wars":
 
 Early "investors"  in the pyramid scheme
 HODL! HODL! HODL!
@@ -214,6 +216,23 @@ e.g.
 - 2 MB block limit
 - 80 byte limit on OP_RETURN "inscriptions"
 - and so on
+
+
+
+Public Service Announcement
+
+> Some climate activists think bitcoin
+> is just fake internet money they can safely ignore.
+>
+> The truth? Bitcoin is causing dangerous amounts
+> of real-world pollution from its ravenous consumption of fossil fuels,
+> all due to its outdated [proof-of-work / waste] code.
+>
+> The solution? Change the [fucking] code.
+>
+>  -- Greenpeace [Change the Code, Not The Climate Campaign, 2023]
+
+
 
 
 
@@ -294,7 +313,7 @@ A 1-bit (black & white) pixel art image (a skull) - "hand-painted" by Casey Roda
 
 See [inscription no. 0](https://ordinals.com/inscription/6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0)
 
-- timestamp: December, 14th 2022 20:32:00 UTC
+- timestamp: December, 14th 2022 20:32 UTC
 - genesis (block) height: 767430
 - content length: 793 bytes
 - content type: image/png
@@ -307,7 +326,7 @@ See [inscription no. 0](https://ordinals.com/inscription/6fb976ab49dcec017f1e201
 
 See [inscription no. 1](https://ordinals.com/inscription/26482871f33f1051f450f2da9af275794c0b5f1c61ebf35e4467fb42c2813403i0)
 
-- timestamp: December, 17th 2022 04:49:30 UTC
+- timestamp: December, 17th 2022 04:49 UTC
 - genesis (block) height: 767753
 - content length: 20266 bytes
 - content type: image/png
@@ -408,6 +427,11 @@ See [Bitcoin Ordinals Analysis](https://dune.com/dgtl_assets/bitcoin-ordinals-an
 - etc.
 
 
+![](i/ordinalanalysis.png)
+
+
+
+
 
 ## Latest and (Very) First Hundred Inscriptions
 
@@ -484,7 +508,7 @@ Litecoin (LTC) Ordinal Inscriptions Started - Wen?
 
 First [Inscription No. 0](https://ordinalslite.com/inscription/71e0f6dc87a473aa69787fff8e09e5eddfdca96e587928a5b1a25c0ae16dc0eei0):
 
-- timestamp: February 19th, 2023 20:26:43 UTC
+- timestamp: February 19th, 2023 20:26 UTC
 - genesis (block) height: 2425370
 - content length: 57237 bytes
 - content type: application/pdf
@@ -530,43 +554,95 @@ available)
 
 
 
-## What more? What's next?
+## What More? What's Next?
 
 
-New protocols built on inscriptions
-
-- sat names  - via json text inscription (first on ??)
-  - https://docs.sats.id/sats-names/about
-  started by ??????
-
-Sats Names is a standard for writing names to Bitcoin using ordinals.
- The goal is to build a name ecosystem for Bitcoin, that is built by Bitcoiners,
-and developed entirely on Bitcoin. We're just starting the process of building
-our indexer for this project but we can share our syntax so builders can begin tinkering
-
-The first write of a name on Bitcoin owns the name
-For example, the first user to register an ordinal containing "satoshi.sats"
-owns that name and the rights to update that name.
-With ordinals anyone can write any data they wish, including duplicate names.
-This will lead to collisions and competing tribes of name standards.
-Bickering over various standards is a waste of our community’s energy.
-There is only one neutral, objective pattern for settling collisions; First is first.
+New (experimental) protocols built on inscriptions
 
 
-- brc-20 ("fungible" token)  - via json text inscription (first on ???)
-   started March 9th, 2023 by ?????
+**sats names**  - via json text inscription
 
-brc-20
-- birth - https://twitter.com/domodata/status/1633658974686855168
-- https://domo-2.gitbook.io/brc-20-experiment/
-- news - https://decrypt.co/123123/people-are-minting-brc-20-meme-coins-on-bitcoin-via-ordinals
+see [docs.sats.id](https://docs.sats.id)
+
+> Sats Names is a standard for writing names to bitcoin using ordinals.
+> The goal is to build a name ecosystem for bitcoin, that is built by
+> bitcoiners, and developed entirely on Bitcoin. We're just starting the
+> process of building
+> our indexer for this project but we can share our syntax so builders
+> can begin tinkering
+>
+> The first write of a name on bitcoin owns the name
+> For example, the first user to register
+> an ordinal containing "satoshi.sats"
+> owns that name and the rights to update that name.
+> With ordinals anyone can write any data they wish,
+> including duplicate names.
+> This will lead to collisions and competing tribes of name standards.
+> Bickering over various standards is a waste of our community's energy.
+> There is only one neutral, objective pattern for settling collisions;
+> First is first.
 
 
-March 9th, 2023 - Leonidas - https://twitter.com/LeonidasNFT/status/1633926796943998978
-There have been 23,926 BRC-20 ordinal inscriptions in the past 24 hours.
 
-It only took 6 weeks for people to figure out how to use ordinals
-to make fungible meme coins. At this point, nothing surprises me.
+
+**brc-20 ("fungible" token)**  - via json text inscription
+
+April Fools'-like posting by ["Domo" (on March 9th, 2023)](https://twitter.com/domodata/status/1633658974686855168):
+
+> An experiment into "brc-20's"
+> and fungibility on bitcoin with ordinals:
+>
+>     {
+>       "p":    "brc-20",
+>       "op":   "deploy",
+>       "tick": "ordi",
+>       "max":  "21000000",
+>       "lim":  "100"
+>     }
+>
+>  Using inspiration from sats names [et al],
+> I wondered if the concept could be expanded to fungible tokens.
+> This is what I came up with:
+>
+>>  brc-20 experiment
+>>
+>>  This is just a fun experimental standard demonstrating
+>>  that you can create off-chain balance states with inscriptions.
+>>  It by no means should be considered THE standard for fungibility
+>>  on bitcoin with ordinals, as I believe there are almost certainly
+>>  better design choices and optimization improvements to be made.
+>>  Consequently, this is an extremely dynamic experiment,
+>>  and I strongly discourage any financial decisions
+>>   to be made on the basis of it's design.
+>>  I do, however, encourage the bitcoin community
+>>  to tinker with standard designs and optimizations
+>>  until a general consensus on best practices is met
+>>  (or to decide that this is a bad idea altogether!).
+>>
+>>  ...
+>>
+>>  [Read more @ brc-20 experiment](https://domo-2.gitbook.io/brc-20-experiment/)
+>
+>
+> With this logic, anyone can deploy, mint,
+> or transfer using ordinal inscriptions.
+> Like other similar projects, the 'first is first' rule applies.
+
+o o o
+
+> There have been 23 926 BRC-20 ordinal inscriptions
+>  in the past 24 hours.
+>
+>  It only took six weeks for people to figure
+> out how to use ordinals to make fungible meme coins.
+>
+>  -- [Leonidas, March 9th, 2023](https://twitter.com/LeonidasNFT/status/1633926796943998978)
+
+
+
+<!--
+ more news - https://decrypt.co/123123/people-are-minting-brc-20-meme-coins-on-bitcoin-via-ordinals
+-->
 
 
 
@@ -577,7 +653,7 @@ to make fungible meme coins. At this point, nothing surprises me.
 Let's Welcome Ordinals **Height**
 
 [Inscription No. 0](https://www.ordinalsheight.com/inscription/41c4c2afe3e6c9fb6a7d828bdff87d5976416b4a7a360a3a88cc61adb56eac12i0)
-- timestamp: February 28th, 2023 19:48:53 UTC
+- timestamp: February 28th, 2023 19:48 UTC
 
 see [ordinalsheight.com](https://www.ordinalsheight.com)
 
@@ -589,7 +665,7 @@ see [ordinalsheight.com](https://www.ordinalsheight.com)
 
 
 
-## As they say - It's the early days ...
+## As they say - It's the early days...
 
 
 - Ordinals on Bitcoin (BTC), see [ordinals.com](https://ordinals.com)   -  580 861   and counting
@@ -650,10 +726,54 @@ Post them over at the [Help & Support](https://github.com/geraldb/help) page. Th
 
 
 
+
 ## Appendix / More "Stuff"
 
 
+
 ###  The Ordinal Punks Fam(ily) Tree
+
+100 Ordinal Punks     by "Flow Stay"
+
+![](../i/ordinalpunks.png)
+
+100 (+1) Ordinal Phunks    by "The Inscriptor"
+
+![](../i/ordinalphunks.png)
+
+100 (+1) Lil' Ordinal Phunks   (on Litecoin) by "The Inscriptor"
+
+![](../i/lilordinalphunks.png)
+
+100 (+1) Ordoggies   (on Dogecoin) by "The Inscriptor"
+
+![](../i/ordoggies.png)
+
+100 (+1) Ordinal Doggies   by "Flict" w/ "The Inscriptor"
+
+![](../i/ordoggies.png)
+
+
+10 000 Extraordinal Punks   by ???
+
+see [extraordinalpunks.com](https://www.extraordinalpunks.com)
+
+
+
+Meanwhile on Ethereum...
+
+100 Flipped Ordinal Punks / "Fonks"  (on Ethereum) by John van Rijck, Netherlands
+
+see [opensea.io/collection/fonks](https://opensea.io/collection/fonks)
+
+
+1000 Unofficial Ordinal Punks / "Unordinal Punks" (on Ethereum)
+by Eric P. Rhodes, United States
+
+see [opensea.io/collection/unofficial-ordinal-punks](https://opensea.io/collection/unofficial-ordinal-punks)
+
+
+
 
 
 
