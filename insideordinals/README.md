@@ -160,14 +160,8 @@ Yes, monkeys, punks, goblins, and more!
 
 Limitations:   4 MB max. (per block)
 and - of course - you have to pay for every byte  (or vbyte) stored
-in bitcoins (or satoshis).
+in bitcoins.
 Funny money for funny monkeys!
-
-
-Aside - What's a Satoshi?
-
-- 1 bitcoin is 100 million satoshis (1 = 100 000 000 = 10^8)
-- 1 euro or 1 dollar is 100 cents (1 = 100 = 10^2)
 
 
 
@@ -219,21 +213,6 @@ e.g.
 
 
 
-Public Service Announcement
-
-> Some climate activists think bitcoin
-> is just fake internet money they can safely ignore.
->
-> The truth? Bitcoin is causing dangerous amounts
-> of real-world pollution from its ravenous consumption of fossil fuels,
-> all due to its outdated [proof-of-work / waste] code.
->
-> The solution? Change the [fucking] code.
->
->  -- Greenpeace [Change the Code, Not The Climate Campaign, 2023]
-
-
-
 
 
 
@@ -272,6 +251,23 @@ From the Official [Ordinal Theory F.A.Q.](https://docs.ordinals.com/faq.html) wr
 **Q: What is ordinal theory?**
 
 A: Ordinal theory is a protocol for assigning serial numbers to satoshis, the smallest subdivision of a bitcoin, and tracking those satoshis as they are spent by transactions.
+
+
+Aside - What's a Satoshi?
+
+- 1 bitcoin is 100 million satoshis (1 = 100 000 000 = 10^8)
+- 1 euro or 1 dollar is 100 cents (1 = 100 = 10^2)
+
+
+Aside - Q: What are Ordinal Numbers?   (let's ask Chat GPT)
+
+A: Ordinal numbers refer to numbers that indicate the position
+or order of "digital artefacts" in a collection,
+such as genesis ("birth"), first, second, third, fourth,
+and so on.
+
+Note: Ordinal numbers do NOT indicate
+quantity as cardinal numbers do.
 
 
 
@@ -722,6 +718,22 @@ Write-Ups:
 ## Questions? Comments?
 
 Post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
+
+
+
+Public Service Announcement
+
+> Some climate activists think bitcoin
+> is just fake internet money they can safely ignore.
+>
+> The truth? Bitcoin is causing dangerous amounts
+> of real-world pollution from its ravenous consumption of fossil fuels,
+> all due to its outdated [proof-of-work / waste] code.
+>
+> The solution? Change the [fucking] code.
+>
+>  -- Greenpeace [Change the Code, Not The Climate Campaign, 2023]
+
 
 
 
