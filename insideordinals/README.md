@@ -897,9 +897,9 @@ by Kevin McCoy (b. 1967) on May 2nd, 2014  - arguably the first ever
 digital certified ownership (or provenance) "non-fungible token"
 for digital art than called "monegraph" short for "monetized graphics".
 
-Trivia Aside - Namecoin records expire
+Trivia Aside - Namecoin records expire (without renewal after 250 days)
 and "EarlyNFT" snapped up the record via namecoin to assert ownership via the blockchain title / deed
-while  McCoy and Sotheby's were auctioning the "Quantum NFT" in 2021
+while  McCoy and Sotheby's were auctioning the "Quantum NFT" in 2021.
 
 **2015**
 
