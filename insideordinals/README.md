@@ -857,3 +857,88 @@ Four Weeks Later - Ordinal (Buy/Sell) Markets
 - https://ordswap.io/collections/ordinal-phunks
 - and many more
 
+
+
+
+### Bitcoin Timeline & Milestones Leading to Ordinal Inscriptions
+
+**2009**
+
+"Chancellor on the Brink of Second Ballout for Banks"  in Genesis Bitcoin Block No. 0 -
+arguably the first data ever inscribed by Satoshi Nakamoto
+
+
+**2011**
+
+Namecoin - bitcoin "side chain" to register names started - attach value (data) to names (keys) up to 520 bytes
+
+Aside - What is a "side chain"?
+
+A sidechain is a blockchain whose consensus rules necessarily
+involve validating data from another blockchain
+(referred to as the parent chain).
+The concept of sidechains was first proposed by Satoshi Nakamoto in 2010,
+and was first tried in production by Namecoin in October 2011.
+
+
+**2012**
+
+Colored Coins - "coloring" coins, that is, satoshis to encode unique digital tokens / assets on bitcoin itself (no "side chain")
+
+
+**2014**
+
+OP_RETURN introduces an 80 bytes limit for data
+
+Counterparty & OmniLayer (formerly Mastercoin)  - new "protocols" for unique digital tokens / assets
+
+Quantum  minted (via [Namecoin Block No. 174923](https://namebrow.se/name/d41b8540cbacdf1467cdc5d17316dcb672c8b43235fa16cde98e79825b68709a/))
+by Kevin McCoy (b. 1967) on May 2nd, 2014  - arguably the first ever
+digital certified ownership (or provenance) "non-fungible token"
+for digital art than called "monegraph" short for "monetized graphics".
+
+Trivia Aside - Namecoin records expire
+and "EarlyNFT" snapped up the record via namecoin to assert ownership via the blockchain title / deed
+while  McCoy and Sotheby's were auctioning the "Quantum NFT" in 2021
+
+**2015**
+
+Blocksize Wars begin
+
+Spells of Genesis (Trading Card Collectible Game)  via Counterparty
+
+**2016**
+
+Rare Pepes
+
+The first Rare Pepes  were mined on Bitcoin Block No. 428 919.
+The rare Pepe images on Counterparty looked like trading cards
+and were minted in limited amounts (a total of 1 774 across 36 series).
+Through the Rare Pepe Wallet, users could buy, sell, and store  Rare Pepe cards.
+
+
+**2017**
+
+Segregated Witness "SegWit" Bitcoin "Soft Fork" Protcol Upgrade - the 4MB limit introduced on blocks
+
+**2021**
+
+TapRoot Bitcoin "Soft Fork" Protocl Upgrade - new Taproot scripts introduced; data limit relaxed
+
+
+**2022**
+
+Ordinals client released to the public by Casey Rodarmor
+
+**2023**
+
+First ever 4MB inscription (a taproot wizard image by Udi Wertheim)
+ minted (and mined by Luxor pool)
+
+Inscription volume explodes
+
+
+<!-- sources:
+  Galaxy Ordinals Report - see Timeline of Bitcoin NFT Projects
+  https://www.galaxy.com/research/whitepapers/bitcoin-ordinals-inscriptions-5-billion-nft-market/
+ -->
