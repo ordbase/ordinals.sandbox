@@ -781,7 +781,7 @@ Public Service Announcement
 ![](../i/ordoggies.png)
 
 
-10 000 Extraordinal Punks   by ???
+10 000 Extraordinal Punks   by "Orc & ExtraOrd" or "Diamond_Hands_Yacht_Club & MarbuR7"
 
 see [extraordinalpunks.com](https://www.extraordinalpunks.com)
 
