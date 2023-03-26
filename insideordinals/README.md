@@ -909,10 +909,8 @@ Spells of Genesis (Trading Card Collectible Game)  via Counterparty
 
 **2016**
 
-Rare Pepes
-
-The first Rare Pepes  were mined on Bitcoin Block No. 428 919.
-The rare Pepe images on Counterparty looked like trading cards
+Rare Pepes - The first Rare Pepes  were mined on Bitcoin Block No. 428 919.
+The Rare Pepe images on Counterparty looked like trading cards
 and were minted in limited amounts (a total of 1 774 across 36 series).
 Through the Rare Pepe Wallet, users could buy, sell, and store  Rare Pepe cards.
 
