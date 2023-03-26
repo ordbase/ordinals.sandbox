@@ -438,7 +438,7 @@ available)
 
 
 Tip:
-See the (very) first hundred inscriptions (add /99)
+See the (very) first hundred inscriptions (add `/99`)
 - [ordinals.com/inscriptions/99](https://ordinals.com/inscriptions/99)
 
 
@@ -548,18 +548,33 @@ available)
 
 
 
-
-
 ## What More? What's Next?
 
 
 New (experimental) protocols built on inscriptions
 
 
-**sats names**  - via json text inscription
+
+
+**sats names**  - `.sats` name registry / registration via inscription
 
 see [docs.sats.id](https://docs.sats.id)
 
+
+>>  Simple name registration  (using single text line)
+>>
+>>>       helloworld.sats
+>>
+>>
+>>  Advanced name registration  (using JSON v5)
+>>
+>>>     {
+>>>       "p": "sns",
+>>>       "op": "reg",
+>>>       "name": "helloworld.sats",
+>>>     }
+>
+>
 > Sats Names is a standard for writing names to bitcoin using ordinals.
 > The goal is to build a name ecosystem for bitcoin, that is built by
 > bitcoiners, and developed entirely on Bitcoin. We're just starting the
@@ -818,4 +833,27 @@ First the string ord is pushed, to disambiguate inscriptions from other uses of 
 and `OP_0` indicates that subsequent data pushes contain the content itself. Multiple data pushes must be used for large inscriptions, as one of taproot's few restrictions is that individual data pushes may not be larger than 520 bytes.
 
 source: https://docs.ordinals.com/inscriptions.html
+
+
+### From Zero To Hundred -  From Over-The-Counter (OTC) Trading to Ordinal (Buy/Sell) Markets
+
+
+Genesis - Blockchain Minimalism -   Over-The-Counter (OTC) Trading
+
+![](i/ordinalpunks-market.png)
+
+Source: [Punk's Data Order Book On (Google Docs) Spreadsheet](https://docs.google.com/spreadsheets/d/1_a690MxZUFGMnvU8VkchH1wLUxUQKdTbJpF9geBpHqI/edit)
+
+
+
+
+Four Weeks Later - Ordinal (Buy/Sell) Markets
+
+- https://magiceden.io/ordinals/marketplace/ordinal-phunks
+- https://ordinals.market/collection/ordinals/ordinal-phunks
+- https://ordinalswallet.com/collection/ordinal-phunks
+- https://openordex.org/collection?slug=ordinal-phunks
+- https://gamma.io/collections/ordinals/ordinal-phunks
+- https://ordswap.io/collections/ordinal-phunks
+- and many more
 

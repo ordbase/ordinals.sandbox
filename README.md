@@ -16,6 +16,16 @@ For a step-by-step guide and more see
 the [**ordbase package (with the ordbase command-line tool) »**](https://github.com/pixelartexchange/artbase/tree/master/ordbase)
 
 
+ o o o
+
+
+New to Ordinals?
+See the talk notes titled
+[**Inside Ordinal Inscriptions - Turn the Blockchain Into A Database For Digital Artefacts »**](insideordinals)
+
+
+
+
 
 
 
