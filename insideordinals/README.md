@@ -928,12 +928,26 @@ TapRoot Bitcoin "Soft Fork" Protocl Upgrade - new Taproot scripts introduced; da
 
 Ordinals client released to the public by Casey Rodarmor
 
+
 **2023**
 
-First ever 4MB inscription (a taproot wizard image by Udi Wertheim)
+First ever 4MB inscription
+(a .jpeg image in the [Taproot Wizard series](https://www.taprootwizards.com/) by Udi Wertheimer)
  minted (and mined by Luxor pool)
 
-Inscription volume explodes
+> Last night, we made history. The gatekeepers tried to censor us.
+>
+> But we mined the LARGEST BLOCK and LARGEST TRANSACTION IN BITCOIN'S HISTORY
+>
+> Special thanks to bitcoin full node operators
+> for supporting our efforts and hosting our 4MB inscription
+> for all eternity!
+>
+>  -- [Udi Wertheimer, February 2nd, 2023](https://twitter.com/udiWertheimer/status/1621176136142045191)
+
+
+Inscription volume explodes - 500 000 and counting...
+
 
 
 <!-- sources:
