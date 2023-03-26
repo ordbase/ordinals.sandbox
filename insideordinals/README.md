@@ -234,10 +234,10 @@ See
 
 
 
-> ord is written in rust and can be built from source.
->
 > ord is an index, block explorer, and command-line [bitcoin] wallet.
 > It is experimental software with no warranty.
+>
+> ord is written in rust and can be built from source.
 >
 > -- [github.com/casey/ord](https://github.com/casey/ord)
 
