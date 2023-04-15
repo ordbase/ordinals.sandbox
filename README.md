@@ -174,6 +174,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/shadowsmokers.png)
 
 
+**40 Right-Click Inscribe (32×32)**
+
+![](i/rightclickinscribe.png)
+
+
 
 **20 Ordinary People (32×32)**
 

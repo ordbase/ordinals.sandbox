@@ -7,6 +7,8 @@ require 'cocos'
 ##
 ##  and export as tabular dataset (in .csv)
 
+##
+##  /inscription/1ac93a80cd4b0956afcccfde071124ca13db711e802c2cae534abc91353b303ai0
 
 
 # name  = 'ordinalpenguins'
@@ -44,7 +46,9 @@ require 'cocos'
 # name = 'cyberordinals'
 # name = 'ordinalkitties'
 # name = 'pixelpepes'
-name = 'hiddensociety'
+# name = 'hiddensociety'
+name = 'rightclickinscribe'
+
 
 txt = read_text( "./#{name}/page.txt" )
 
@@ -62,12 +66,17 @@ IMG_RX = %r{
               >
             }ix
 
+LINK_RX = %r{
+              inscription/
+                 (?<link>[a-fi0-9]+)
+            }ix
 
 links = []
 
 
-
-txt.scan( IMG_RX ) do |_|
+# rx = IMG_RX
+rx = LINK_RX
+txt.scan( rx ) do |_|
   m = Regexp.last_match
 
   links << m[:link].strip
@@ -81,7 +90,14 @@ puts "   #{links.size} link(s)"
 
 ids = links.map { |link|  link.split('/')[-1] }
 pp ids
-puts "   #{links.size} id(s)"
+puts "   #{ids.size} id(s)"
+
+
+## turn into symbol (to make uniq work)
+ids = ids.uniq
+pp ids
+puts "   #{ids.size} id(s)"
+
 
 
 recs = []
