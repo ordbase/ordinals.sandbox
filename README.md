@@ -18,7 +18,7 @@ Yes, you can!
 Start your own
 sandbox (& cache) or "right-clicker" ordinal backup / archive / gallery.
 For a step-by-step guide and more see
-the [**ordbase package (with the ordbase command-line tool) »**](https://github.com/pixelartexchange/artbase/tree/master/ordbase)
+the [**ordbase package (with the ordbase command-line tool) »**](https://github.com/ordbase/ordbase/tree/master/ordbase)
 
 
 
@@ -39,7 +39,7 @@ the [**ordbase package (with the ordbase command-line tool) »**](https://github
 
 
 
-New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno 2023) Notes - 24×24 Pixel Art on the (Bitcoin) Blockchain »**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/awesome-ordinalpunks)
+New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno 2023) Notes - 24×24 Pixel Art on the (Bitcoin) Blockchain »**](https://github.com/ordinalpunks/awesome-ordinalpunks)
 
 
 **100 (+1) Ordinal Phunks (24×24)**
