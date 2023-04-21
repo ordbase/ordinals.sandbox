@@ -135,6 +135,10 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 ![](i/ordinalumekopunks.png)
 
+**150 Ordinal Insiders (24×24)**
+
+![](i/ordinalinsiders.png)
+
 
 
 **100 Ordinary Apes (24×24)**

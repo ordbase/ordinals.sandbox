@@ -1,5 +1,14 @@
 # Notes
 
+## More Updates
+
+150 Ordinal Insider
+via <https://github.com/ordinals-wallet/ordinals-collections/tree/main/collections/ordinal-insiders>   (really 200?)
+
+
+
+
+
 ## Update Image Downloads
 
 - cyberordinals (50)

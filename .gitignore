@@ -16,6 +16,8 @@ inscription/
 # ignore all html dumps for now - why? why not?
 page.txt
 page.html
+page.json
+inscriptions.json
 
 
 
