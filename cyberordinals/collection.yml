@@ -3,7 +3,7 @@
 slug:       cyberordinals
 count:      50
 format:     24x24
-source:     528x528     ## 22 x 24 = 528px
+source:     [528x528,1284x1282]     ## 22 x 24 = 528px
 offset:     1
 
 
@@ -15,4 +15,8 @@ offset:     1
 #  built on the PunkForce(ERC721) story a decade or so after the crash.
 #
 #   -- https://cyberordinals.skullcat.co
+#
+#
+#  note: no. 46 uses 1284x1282 (!!!)
+
 
