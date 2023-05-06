@@ -24,8 +24,7 @@ the [**ordbase package (with the ordbase command-line tool) »**](https://github
 
 
 
-
-**100 Ordinal Punks (24×24)**
+**100 Ordinal Punks (24×24)**  from #407 to #642 (Jan/31st+Feb/1st - 2d)
 
 ![](i/ordinalpunks.png)
 
@@ -42,7 +41,7 @@ the [**ordbase package (with the ordbase command-line tool) »**](https://github
 New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno 2023) Notes - 24×24 Pixel Art on the (Bitcoin) Blockchain »**](https://github.com/ordinalpunks/awesome-ordinalpunks)
 
 
-**100 (+1) Ordinal Phunks (24×24)**
+**100 (+1) Ordinal Phunks (24×24)**  from #74010 to #139687 (Feb/13th-18th - 6d)
 
 ![](i/ordinalphunks.png)
 
@@ -61,7 +60,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 
 
-**100 (+1) Lil' Ordinal Phunks (24×24)**   _(on Litecoin)_
+**100 (+1) Lil' Ordinal Phunks (24×24)** from #14343 to #42901 (Feb/22th-26th - 3d)   _on Litecoin_
 
 ![](i/lilordinalphunks.png)
 
@@ -76,7 +75,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
      - 2023-02-26 => 74
 
 
-**100 Bitcoin Punks (24×24)**
+**100 Bitcoin Punks (24×24)**  from #1156 to #5535 (Feb/3rd-6th - 4d)
 
 ![](i/bitcoinpunks.png)
 
@@ -113,7 +112,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 
 
-**100 Litecoin Punks (24×24)**    _(on Litecoin)_
+**100 Litecoin Punks (24×24)**  from #642 to #834 (Feb/21st - 1d)   _on Litecoin_
 
 ![](i/litecoinpunks.png)
 
@@ -206,7 +205,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordinalgoros.png)
 
 
-**69 (Skull) 1337 Ordinals (32×32)**
+**69 (Skull) 1337 Ordinals (32×32)**  - from #8440 to #10778  (Feb/6th+7th - 2d)
 
 ![](i/1337ordinals.png)
 
@@ -217,7 +216,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 
 
-**100 (+1) Ordoggies (32×32)**    _(on Dogecoin)_
+**100 (+1) Ordoggies (32×32)**    _on Dogecoin_
 
 ![](i/ordoggies.png)
 
@@ -282,6 +281,10 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordinalprimates.png)
 
 
+
+**100 Bitcoin Apes (50×50)**   from #646 to #5943  (Feb/1st-6th - 5d)
+
+![](i/bitcoinapes.png)
 
 
 **100 Ordinal Minis (50×50)**

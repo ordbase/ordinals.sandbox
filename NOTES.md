@@ -1,5 +1,18 @@
 # Notes
 
+
+
+## Todos & Ideas
+
+- [ ] add a mirror flag for composite - to generate flipped (left or right-looking) composites?
+- [ ] add if possible a image (v2 or -ii ??) without background
+      - bonus - add "smoke"-like colors w/ alpha channels
+      - bonus - track backgroun colors (if more than one)
+
+
+
+
+
 ## More Updates
 
 150 Ordinal Insider
@@ -11,8 +24,6 @@ via <https://github.com/ordinals-wallet/ordinals-collections/tree/main/collectio
 
 ## Update Image Downloads
 
-- cyberordinals (50)
-- bitcoinapes  (100)
 - monkeykingdom  (2222)
 
 
