@@ -77,7 +77,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 **100 Bitcoin Punks (24×24)**  from #1156 to #5535 (Feb/3rd-6th - 4d)
 
-![](i/bitcoinpunks.png)
+![](i/bitcoinpunks-ii.png)
 
 - from #1156 to #5535 (min. to max.)
      - <10000 => 100
