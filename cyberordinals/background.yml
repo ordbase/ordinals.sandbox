@@ -1,0 +1,15 @@
+####
+# config for remove background et al
+
+
+background:  solid
+
+
+## tryo to restore
+##   colors blended (via alpha channel) with backgroound
+##    to "pure" neutral colors
+
+alpha:
+ '#EFC88F':   '#DDDDDD80'    ## cigarette & pipe smoke (opacity 128 - 0x80)
+ '#3E8757':   '#DDDDDD80'
+

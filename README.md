@@ -128,18 +128,20 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 **98 (of 100) Punks Lite (24×24)**
 
-![](i/punkslite.png)
+![](i/punkslite-ii.png)
 
 
 **50 Cyber Ordinals (24×24)**
 
-![](i/cyberordinals.png)
+![](i/cyberordinals-ii.png)
 
 
 
 **100 Ordinal Umeko Punks (24×24)**
 
-![](i/ordinalumekopunks.png)
+![](i/ordinalumekopunks-ii.png)
+
+
 
 **150 Ordinal Insiders (24×24)**
 
