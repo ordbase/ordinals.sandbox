@@ -1,0 +1,34 @@
+####
+# config for remove background et al
+
+
+## main color is #668598  - use/try color distance for "fuzzy" match???
+background:   "#698398 #698496
+             #678699 #678697 #67849A #678498 #678496
+             #668694 #668598 #668596  #66849A #66849C
+             #658495 #658797
+             #648897 #648698 #648696 #648694 #64859A #64859C
+             #638796 #63869A #63869C #638698 #638595 #638497 #638593
+             #618695"
+
+
+## tryo to restore
+##   colors blended (via alpha channel) with backgroound
+##    to "pure" neutral colors
+
+alpha:
+ '#8FA0AA':   '#DDDDDD80'    ## cigarette_smoke (opacity 128 - 0x80)
+ '#8FA0A8':   '#DDDDDD80'
+ '#8F9FAE':   '#DDDDDD80'
+ '#8EA1A8':   '#DDDDDD80'
+ '#919FAA':   '#DDDDDD80'
+ '#A1B1BC':   '#DDDDDD80'
+ '#A1B2BA':   '#DDDDDD80'
+ '#8EA1AA':   '#DDDDDD80'
+ '#919FA8':   '#DDDDDD80'
+ '#9FB2BC':   '#DDDDDD80'
+ '#8FA1A6':   '#DDDDDD80'
+ '#A2B0BC':   '#DDDDDD80'
+ '#8F9FAC':    '#DDDDDD80'
+
+

@@ -93,7 +93,8 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 **100 Taproot Punks (24×24)**
 
-![](i/taprootpunks.png)
+![](i/taprootpunks-ii.png)
+
 
 
 **88 G-Punks (24×24)**
