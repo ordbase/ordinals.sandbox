@@ -104,7 +104,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 
 **80 Forgotten Punks (24×24)**
 
-![](i/forgottenpunks.png)
+![](i/forgottenpunks-ii.png)
 
 
 **50 Ordinal Hero Punks (24×24)**
