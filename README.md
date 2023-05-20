@@ -160,7 +160,7 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordinaryapes.png)
 
 
-***100 Toshians (24×24)**
+**100 Toshians (24×24)**
 
 ![](i/toshians-ii.png)
 
