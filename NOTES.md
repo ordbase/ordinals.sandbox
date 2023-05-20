@@ -15,6 +15,17 @@
 
 ## More Updates
 
+add - why? whyn not?
+
+- https://ordinalswallet.com/collection/blocktoshi-ordinals - 10 max.
+- https://ordinalswallet.com/collection/fourdinals  - 16 max.
+- https://ordinalswallet.com/collection/pingoos     - 1250 max.
+- https://ordinalswallet.com/collection/bitcoin-monkes  - 3404 max.
+
+
+
+---
+
 150 Ordinal Insider
 via <https://github.com/ordinals-wallet/ordinals-collections/tree/main/collections/ordinal-insiders>   (really 200?)
 

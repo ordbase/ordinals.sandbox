@@ -160,6 +160,11 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 ![](i/ordinaryapes.png)
 
 
+***100 Toshians (24×24)**
+
+![](i/toshians-ii.png)
+
+
 
 **100 Engraved Dragons (24×24)**
 
@@ -175,6 +180,12 @@ New to Ordinal Punks? For some background see [**Awesome 100 Ordinal Punks (Anno
 **100 Ordinal Mini Doges (24×24)**
 
 ![](i/ordinalminidoges.png)
+
+
+**200 Frenless (26×26)**
+
+![](i/frenless.png)
+
 
 
 **69 Doge Punks (28×28)**

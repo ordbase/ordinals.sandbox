@@ -1,6 +1,9 @@
 require 'cocos'
 
-name  = 'ordinalinsiders'
+# name  = 'ordinalinsiders'
+# name = 'bitcoinpizzas'
+# name = 'toshians'
+name = 'frenless'
 
 
 data = read_json( "./#{name}/inscriptions.json" )
