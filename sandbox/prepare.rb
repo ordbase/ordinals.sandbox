@@ -47,8 +47,8 @@ require 'cocos'
 # name = 'ordinalkitties'
 # name = 'pixelpepes'
 # name = 'hiddensociety'
-name = 'rightclickinscribe'
-
+# name = 'rightclickinscribe'
+name = 'hoodiegang'
 
 txt = read_text( "./#{name}/page.txt" )
 
@@ -57,6 +57,18 @@ txt = read_text( "./#{name}/page.txt" )
 ##
 ##  https://turbo.ordinalswallet.com/inscription/content/7b4621462d4b1ce59045950774c9f4f82c1fac0fa8c5838a2a5bc6b6d06705dfi0
 ##
+
+##
+##  /ordinals/item-details/4c9ecd091a011e6e157b3ff0d49e0a0ef1d759310fb44b8d7ddeeb8867f2adf2i0
+
+##
+##  <a class="tw-flex tw-justify-between
+##           tw-min-w-0 tw-text-secondary tw-text-[16px]
+##           tw-truncate tw-w-[100%]" title="#9"
+##           href="/ordinals/item-details/4c9ecd091a011e6e157b3ff0d49e0a0ef1d759310fb44b8d7ddeeb8867f2adf2i0">
+##                   Hoodie Gang Member #9
+##              </a>
+
 
 IMG_RX = %r{
              <img
@@ -71,22 +83,42 @@ LINK_RX = %r{
                  (?<link>[a-fi0-9]+)
             }ix
 
+MAGICEDEN_LINK_RX = %r{  <a
+                              .+?
+                              title="(?<title>[^"]+)"
+                                .+?
+                               href="(?<link>[^"]+)"
+                                .*?
+                              >
+                              }ix
+
+
 links = []
 
 
 # rx = IMG_RX
-rx = LINK_RX
+rx = MAGICEDEN_LINK_RX
 txt.scan( rx ) do |_|
   m = Regexp.last_match
 
-  links << m[:link].strip
+  links << [m[:title].strip,
+            m[:link].strip]
 
 end
 
+def numify( str )
+  str.gsub( /[ #]/, '' ).to_i(10)
+end
+
+links = links.sort do |l,r|
+                         numify( l[0] ) <=> numify( r[0] )
+                   end
 
 pp links
+
 puts "   #{links.size} link(s)"
 
+__END__
 
 ids = links.map { |link|  link.split('/')[-1] }
 pp ids
