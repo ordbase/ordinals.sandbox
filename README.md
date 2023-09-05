@@ -8,18 +8,12 @@ Top Ordinal Collections (Market Data Snapshot)
 
 # Ordinals (Pixel Art) Sandbox (& Cache)
 
-New to Ordinals?
-See the talk notes titled
-[**Inside Ordinal Inscriptions - Turn the Blockchain Into A Database For Digital Artefacts »**](insideordinals)
-
- o o o
 
 Yes, you can!
 Start your own
 sandbox (& cache) or "right-clicker" ordinal backup / archive / gallery.
 For a step-by-step guide and more see
 the [**ordbase package (with the ordbase command-line tool) »**](https://github.com/ordbase/ordbase/tree/master/ordbase)
-
 
 
 
